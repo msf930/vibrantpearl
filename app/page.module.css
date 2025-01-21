@@ -1,0 +1,373 @@
+
+.navCont{
+    z-index: 1000;
+}
+.page{
+    overflow: hidden;
+}
+.heroImgCont{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.heroImg{
+
+}
+.heroTextCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 80%, rgba(255,255,255,0));
+    padding: 60px 50px;
+    z-index: 2;
+    gap: 40px;
+}
+.heroText{
+    font-family: var(--header-font);
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    /*margin-top: 20px;*/
+    text-align: start;
+}
+.heroTextBody{
+    font-family: var(--body-font);
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    /*margin-top: 20px;*/
+    text-align: start;
+}
+.heroButton{
+    font-family: Rufina, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3398C1;
+    margin-top: 20px;
+    text-align: start;
+    padding: 10px 20px;
+    border: 2px solid #3398C1;
+    border-radius: 10px;
+    background: #ffffff;
+    cursor: pointer;
+    align-self: start;
+    transition-duration: 0.0s;
+}
+.heroButton:hover{
+    background: #3398C1;
+    color: #ffffff;
+    font-weight: 400;
+    transition-duration: 0.5s;
+}
+.meetCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #EBF9FF, #ABDFF0);
+    padding: 100px;
+}
+.meetLeftCont{
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.meetHeadshotShape{
+    position: relative;
+    width: 20vw;
+    height: 50vh;
+    background: rgba(125,96,160,0.6);
+    top: 40px;
+    left: -40px;
+
+}
+.meetHeadshotCont{
+    position: absolute;
+    width: 20vw;
+    height: 50vh;
+}
+.meetRightCont{
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 80px;
+}
+.meetTextCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background: rgba(255,255,255,0.7);
+    padding: 20px;
+    margin: 20px;
+}
+.meetTitle{
+    font-family: var(--header-font);
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 10px;
+    text-align: start;
+}
+.meetSubTitle{
+    font-family: var(--header-font);
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 10px;
+    text-align: start;
+}
+.meetText{
+    font-family: var(--body-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 10px;
+    text-align: center;
+    width: 430px;
+}
+.meetButton{
+    font-family: Rufina, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #684296;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid #684296;
+    border-radius: 10px;
+    background: #ffffff;
+    cursor: pointer;
+    align-self: center;
+    transition-duration: 0.5s;
+}
+.meetButton:hover{
+    background: #684296;
+    color: #ffffff;
+    font-weight: 400;
+    transition-duration: 0.5s;
+}
+.whyCont{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ABDFF0;
+    padding: 100px;
+}
+.whyTextCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    gap: 20px;
+}
+.whyTitle{
+    font-family: var(--header-font);
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+
+    text-align: center;
+    width: 470px;
+}
+.whyHr{
+    width: 300px;
+    border: 1px solid #BC79B3;
+}
+.whyText{
+    font-family: var(--body-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 10px;
+    text-align: center;
+    width: 700px;
+}
+.whyButton{
+    font-family: Rufina, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid #684296;
+    border-radius: 10px;
+    background: #684296;
+    cursor: pointer;
+    align-self: center;
+    transition-duration: 0.5s;
+}
+.whyButton:hover{
+    background: #ffffff;
+    color: #684296;
+    font-weight: 400;
+    transition-duration: 0.5s;
+}
+.whySymbolXi{
+    position: absolute;
+    right: 22vw;
+    top: 50px;
+}
+.whySymbolFu{
+    position: absolute;
+    left: 20vw;
+    top: 200px;
+}
+.whySymbolShou{
+    position: absolute;
+    right: 15vw;
+    top: 350px;
+}
+.scheduleCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8C0E2;
+    padding: 100px;
+}
+.scheduleTextCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: auto;
+    gap: 20px;
+}
+.scheduleTitle{
+    font-family: var(--header-font);
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    width: 470px;
+}
+.scheduleHr{
+    width: 300px;
+    border: 1px solid #7D60A0;
+}
+.eventsCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8C0E2;
+    padding: 30px;
+    gap: 50px;
+}
+.scheduleButton{
+    font-family: var(--header-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid #684296;
+    border-radius: 10px;
+    background: #684296;
+    cursor: pointer;
+    align-self: center;
+    transition-duration: 0.5s;
+}
+.scheduleButton:hover{
+    background: #ffffff;
+    color: #684296;
+    font-weight: 400;
+    transition-duration: 0.5s;
+}
+.imagesCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #ffffff, #ACE0F1);
+    padding: 100px;
+    gap: 20px;
+}
+.imagesRowCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.imagesItemCont{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    height: 200px;
+}
+.imagesImg{
+
+}
+.testimonialCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ACE0F1;
+    padding: 60px;
+
+}
+.testimonialTextCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.testimonialTitle{
+    font-family: var(--header-font);
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    width: 550px;
+}
+.testimonialButton{
+    font-family: var(--header-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 2px solid #684296;
+    border-radius: 10px;
+    background: #684296;
+    cursor: pointer;
+    align-self: center;
+    transition-duration: 0.5s;
+}
+.testimonialButton:hover{
+    background: #ffffff;
+    color: #684296;
+    font-weight: 400;
+    transition-duration: 0.5s;
+}

@@ -1,101 +1,271 @@
+"use client"
+
 import Image from "next/image";
+
+import { motion, AnimatePresence } from "motion/react";
+
+import styles from "./page.module.css";
+
+import billy from "@/public/BillyHeadshot.png";
+import homeImage1 from "@/public/homeImages1.png";
+import homeImage2 from "@/public/homeImages2.png";
+import homeImage3 from "@/public/homeImages3.png";
+
+import Nav from "@/app/components/Nav";
+import HeroParallax from "@/app/components/HeroParallax.jsx";
+import Symbol from "@/app/components/Symbol";
+import HomeEvent from "@/app/components/HomeEvent";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+      <AnimatePresence>
+          <motion.div
+              initial={{opacity: 0}}
+              animate={{opacity: 1}}
+              transition={{ease: "easeIn", duration: 1.0}}
+              exit={{opacity: 0, transition: {duration: 0.8}}}
+              className={styles.page}
+          >
+              <div className={styles.navCont}>
+                  <Nav/>
+              </div>
+              <div className={styles.heroImgCont}>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+                  <HeroParallax/>
+                  <div className={styles.heroTextCont}>
+                      <motion.h1 className={styles.heroText}
+                                 initial={{opacity: 0, x: 100}}
+                                 whileInView={{ opacity: 1, x: 0 }}
+                                 transition={{ duration: 1.5, delay: 0.5 }}
+                                 viewport={{ once: true }}>
+                          Welcome to <span style={{color: '#684296'}}> Vibrant Pearl Acupuncture & Herbs LLC</span>
+                      </motion.h1>
+                      <motion.p className={styles.heroTextBody}
+                                initial={{opacity: 0, x: -100}}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                transition={{ duration: 1.5, delay: 0.5 }}
+                                viewport={{ once: true }}
+                      >
+                          We apply ancient Chinese wisdom to help people address
+                          the modern health ailments of today’s fast paced world.
+                      </motion.p>
+                      <motion.button className={styles.heroButton}
+                                     initial={{opacity: 0, x: -100}}
+                                     whileInView={{ opacity: 1, x: 0 }}
+                                     transition={{ duration: 1.5, delay: 0.5 }}
+                                     viewport={{ once: true }}
+                      >Book Now</motion.button>
+                  </div>
+              </div>
+              <div className={styles.meetCont}>
+                  <motion.div className={styles.meetLeftCont}
+                              initial={{opacity: 0, x: -100}}
+                              whileInView={{ opacity: 1, x: 0 }}
+                              transition={{ duration: 1.5, delay: 0.3 }}
+                              viewport={{ once: true }}
+                  >
+                      <div className={styles.meetHeadshotShape}></div>
+                      <div className={styles.meetHeadshotCont}>
+                          <Image
+                              src={billy}
+                              alt="Picture of Billy"
+                              className={styles.meetImg}
+                              fill
+                              objectFit="contain"
+                          />
+                      </div>
+                  </motion.div>
+                  <div className={styles.meetRightCont}>
+                      <motion.div className={styles.meetTextCont}
+                                  initial={{opacity: 0, x: 100}}
+                                  whileInView={{ opacity: 1, x: 0 }}
+                                  transition={{ duration: 1.5 }}
+                                  viewport={{ once: true }}
+                      >
+                          <h2 className={styles.meetTitle}>Meet Your Practitioner</h2>
+                          <h1 className={styles.meetSubTitle}>Billy Che Quintana </h1>
+                          <h2 className={styles.meetTitle}>L.Ac., Dipl. O.M</h2>
+                          <p className={styles.meetText}>
+                              Billy Che Quintana is our practitioner of traditional
+                              Chinese medicine and acupuncture who helps individuals
+                              find and maintain balance for lasting health and beauty.
+                          </p>
+                          <button className={styles.meetButton}>Learn More</button>
+                      </motion.div>
+                  </div>
+              </div>
+              <div className={styles.whyCont}>
+                  <motion.div className={styles.whyTextCont}
+                              initial={{opacity: 0}}
+                              whileInView={{ opacity: 1}}
+                              transition={{ duration: 1.5, delay: 0.3 }}
+                              viewport={{ once: true }}
+                  >
+                      <h1 className={styles.whyTitle}>Why choose Vibrant Pearl Acupuncture?</h1>
+                      <hr className={styles.whyHr}/>
+                      <p className={styles.whyText}>
+                          We are Denver’s premier clinic of traditional Chinese Medicine and acupuncture with a cozy
+                          feel, a pace that is not rushed, and most importantly a caring and warm practitioner.
+                          <br/><br/>
+                          We welcome individuals of all sexes, gender identities, orientations, races, and walks of
+                          life.
+                      </p>
+                      <button className={styles.whyButton}>Book Now</button>
+                  </motion.div>
+                  <motion.div
+                      initial={{opacity: 0, x: 100}}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 1.5, type: "spring", delay: 0.5 }}
+                      viewport={{ once: true }}
+                      className={styles.whySymbolXi}
+                  >
+                    <Symbol type="xi"/>
+                  </motion.div>
+                  <motion.div
+                      initial={{opacity: 0, x: -100}}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 1.5, type: "spring", delay: 0.5 }}
+                      viewport={{ once: true }}
+                      className={styles.whySymbolFu}
+                  >
+                    <Symbol type="fu"/>
+                  </motion.div>
+                  <motion.div
+                      initial={{opacity: 0, x: 100}}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 1.5, type: "spring", delay: 0.5 }}
+                      viewport={{ once: true }}
+                      className={styles.whySymbolShou}
+                  >
+                    <Symbol type="shou"/>
+                  </motion.div>
+              </div>
+              <div className={styles.scheduleCont}>
+                    <motion.div className={styles.scheduleTextCont}
+                                initial={{opacity: 0}}
+                                whileInView={{ opacity: 1}}
+                                transition={{ duration: 1.5 }}
+                                viewport={{ once: true }}
+                    >
+                        <h1 className={styles.scheduleTitle}>Make An Appointment</h1>
+                        <hr className={styles.scheduleHr}/>
+
+                    </motion.div>
+
+                  <div className={styles.eventsCont}>
+                      <motion.div className={styles.event}
+                                  initial={{opacity: 0, x: -100}}
+                                  whileInView={{opacity: 1, x: 0}}
+                                  transition={{duration: 1.2}}
+                                  viewport={{once: true}}>
+                          <HomeEvent id={1}/>
+                      </motion.div>
+                      <motion.div className={styles.event}
+                                  initial={{opacity: 0, y: 100}}
+                                  whileInView={{opacity: 1, y: 0}}
+                                  transition={{duration: 1.2}}
+                                  viewport={{once: true}}>
+                          <HomeEvent id={2}/>
+                      </motion.div>
+                      <motion.div className={styles.event}
+                                  initial={{opacity: 0, x: 100}}
+                                  whileInView={{opacity: 1, x: 0}}
+                                  transition={{duration: 1.2}}
+                                  viewport={{once: true}}>
+                          <HomeEvent id={3}/>
+                      </motion.div>
+                  </div>
+                  <button className={styles.scheduleButton}>All Appointments</button>
+              </div>
+              <div className={styles.imagesCont}>
+                  <div className={styles.imagesRowCont}>
+                      <motion.div className={styles.imagesItemCont}
+                                  initial={{opacity: 0, x: 100}}
+                                  whileInView={{opacity: 1, x: 0}}
+                                  transition={{duration: 1.2, delay: 0.0}}
+                                  viewport={{once: true}}
+                      >
+                          <Image
+                              src={homeImage1}
+                              alt="cupping"
+                              className={styles.imagesImg}
+                              fill
+                              objectFit="contain"
+                          />
+                      </motion.div>
+                      <motion.div className={styles.imagesItemCont}
+                                  initial={{opacity: 0, x: 100}}
+                                  whileInView={{opacity: 1, x: 0}}
+                                  transition={{duration: 1.2, delay: 0.5}}
+                                  viewport={{once: true}}
+                      >
+                          <Symbol type="shuangxi"/>
+                      </motion.div>
+                      <motion.div className={styles.imagesItemCont}
+                                  initial={{opacity: 0, x: 100}}
+                                  whileInView={{opacity: 1, x: 0}}
+                                  transition={{duration: 1.2, delay: 1.0}}
+                                  viewport={{once: true}}
+                      >
+                          <Image
+                              src={homeImage2}
+                              alt="accupuncture needles"
+                              className={styles.imagesImg}
+                              fill
+                              objectFit="contain"
+                          />
+                      </motion.div>
+                  </div>
+                  <div className={styles.imagesRowCont}>
+                      <motion.div className={styles.imagesItemCont}
+                                  initial={{opacity: 0, x: -100}}
+                                  whileInView={{opacity: 1, x: 0}}
+                                  transition={{duration: 1.2, delay: 0.0}}
+                                  viewport={{once: true}}
+                      >
+                          <Symbol type="cai"/>
+                      </motion.div>
+                      <motion.div className={styles.imagesItemCont}
+                                  initial={{opacity: 0, x: -100}}
+                                  whileInView={{opacity: 1, x: 0}}
+                                  transition={{duration: 1.2, delay: 0.5}}
+                                  viewport={{once: true}}
+                      >
+                          <Image
+                              src={homeImage3}
+                              alt="chinese herbs"
+                              className={styles.imagesImg}
+                              fill
+                              objectFit="contain"
+                          />
+                      </motion.div>
+                      <motion.div className={styles.imagesItemCont}
+                                  initial={{opacity: 0, x: -100}}
+                                  whileInView={{opacity: 1, x: 0}}
+                                  transition={{duration: 1.2, delay: 1.0}}
+                                  viewport={{once: true}}
+                      >
+                          <Symbol type="lu"/>
+                      </motion.div>
+                  </div>
+              </div>
+              <div className={styles.testimonialCont}>
+                  <motion.div className={styles.testimonialTextCont}
+                              initial={{opacity: 0}}
+                              whileInView={{opacity: 1}}
+                              transition={{duration: 1.2, delay: 0.7}}
+                              viewport={{once: true}}>
+                      <h1 className={styles.testimonialTitle}>
+                          &#34;Had THE BEST Acupuncture treatment tonight with Billy Quintana.
+                          So relaxing. Definitely check him out if you are in need.&#34;
+                      </h1>
+                      <h1 className={styles.testimonialTitle}>
+                          - Tonya
+                      </h1>
+                      <button className={styles.testimonialButton}>Book Now</button>
+                  </motion.div>
+              </div>
+          </motion.div>
+      </AnimatePresence>
   );
 }

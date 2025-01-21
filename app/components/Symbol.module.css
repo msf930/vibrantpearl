@@ -1,0 +1,39 @@
+.symbolCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.symbolCont:hover .symbolImg{
+    margin-top: 0px;
+    transition-duration: 0.5s;
+    box-shadow: 4px 4px 3px 0px #00000040;
+    scale: 1.05;
+    background-color: #ffffff;
+}
+.symbolCont:hover .symbolText{
+    margin-top: 10px;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+.symbolImg{
+    color: #fff;
+    background-color: #ffffff60;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px 0px #00000000;
+    transition-duration: 0.5s;
+}
+.symbolText{
+    margin-top: -20px;
+    font-family: var(--body-font);
+    font-size: 16px;
+    font-weight: 700;
+    color: #575757;
+    opacity: 0;
+    transition-duration: 0.5s;
+}

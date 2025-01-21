@@ -1,0 +1,54 @@
+{
+  "symbols": [
+    {
+      "name": "xi",
+      "text": "Xi - Happiness",
+      "image": "xiHappiness.png"
+    },
+    {
+      "name": "fu",
+      "text": "Fu – Prosperity",
+      "image": "fuProsperity.png"
+    },
+    {
+      "name": "shou",
+      "text": "Shou – Longevity",
+      "image": "shouLongevity.png"
+    },
+    {
+      "name": "shuangxi",
+      "text": "Shuāngxǐ – Double happiness",
+      "image": "shuangxiDoubleHappiness.png"
+    },
+    {
+      "name": "cai",
+      "text": "Cai – Wealth",
+      "image": "caiWealth.png"
+    },
+    {
+      "name": "lu",
+      "text": "Lu – Luck",
+      "image": "luLuck.png"
+    }
+  ],
+  "homeEvents": [
+    {
+      "id": 1,
+      "image": "homeEvent1.png",
+      "name": "Initial Acupuncture and Chinese Medicine Appointment",
+      "duration": "2 Hours"
+    },
+    {
+      "id": 2,
+      "image": "homeEvent2.png",
+      "name": "Cupping and Body Work",
+      "duration": "1 Hour"
+    },
+    {
+      "id": 3,
+      "image": "homeEvent3.png",
+      "name": "Chinese Herbal Consultation",
+      "duration": "1/2 Hour"
+    }
+  ]
+}
