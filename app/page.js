@@ -30,7 +30,6 @@ export default function Home() {
                   <Nav/>
               </div>
               <div className={styles.heroImgCont}>
-
                   <HeroParallax/>
                   <div className={styles.heroTextCont}>
                       <motion.h1 className={styles.heroText}

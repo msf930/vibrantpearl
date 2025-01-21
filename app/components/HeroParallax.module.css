@@ -2,7 +2,7 @@
     .parallax{
         left: 0;
         width: 100vw;
-        height: 1000px;
+        height: 100vh;
         overflow: hidden;
         position: relative;
         display: grid;
@@ -15,7 +15,7 @@
     .parallax{
         left: 0;
         width: 100vw;
-        height: 1000px;
+        height: 100vh;
         overflow: hidden;
         position: relative;
         display: grid;
