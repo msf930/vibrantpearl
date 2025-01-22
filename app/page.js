@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "motion/react";
 
 import styles from "./page.module.css";
 
-import billy from "@/public/BillyHeadshot.png";
+import billy from "@/public/HeadshotShape.png";
 import homeImage1 from "@/public/homeImages1.png";
 import homeImage2 from "@/public/homeImages2.png";
 import homeImage3 from "@/public/homeImages3.png";
@@ -15,6 +15,7 @@ import Nav from "@/app/components/Nav";
 import HeroParallax from "@/app/components/HeroParallax.jsx";
 import Symbol from "@/app/components/Symbol";
 import HomeEvent from "@/app/components/HomeEvent";
+import ContactForm from "@/app/components/ContactForm";
 
 export default function Home() {
   return (
@@ -63,7 +64,7 @@ export default function Home() {
                               transition={{ duration: 1.5, delay: 0.3 }}
                               viewport={{ once: true }}
                   >
-                      <div className={styles.meetHeadshotShape}></div>
+
                       <div className={styles.meetHeadshotCont}>
                           <Image
                               src={billy}
@@ -263,6 +264,9 @@ export default function Home() {
                       </h1>
                       <button className={styles.testimonialButton}>Book Now</button>
                   </motion.div>
+              </div>
+              <div className={styles.formCont}>
+                  <ContactForm/>
               </div>
           </motion.div>
       </AnimatePresence>

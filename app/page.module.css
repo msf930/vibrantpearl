@@ -77,23 +77,17 @@
 .meetLeftCont{
     width: 45vw;
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: end;
 }
-.meetHeadshotShape{
-    position: relative;
-    width: 20vw;
-    height: 50vh;
-    background: rgba(125,96,160,0.6);
-    top: 40px;
-    left: -40px;
 
-}
 .meetHeadshotCont{
-    position: absolute;
-    width: 20vw;
-    height: 50vh;
+    position: relative;
+
+    width: 23vw;
+    height: 54vh;
 }
 .meetRightCont{
     width: 55vw;
@@ -168,6 +162,7 @@
     align-items: center;
     background-color: #ABDFF0;
     padding: 100px;
+    width: 100vw;
 }
 .whyTextCont{
     display: flex;
@@ -176,8 +171,8 @@
     align-items: center;
     width: 50vw;
     height: auto;
-    padding: 20px;
-    margin: 20px;
+    /*padding: 20px;*/
+    /*margin: 20px;*/
     gap: 20px;
 }
 .whyTitle{
@@ -187,7 +182,7 @@
     color: #000;
 
     text-align: center;
-    width: 470px;
+    width: 50vw;
 }
 .whyHr{
     width: 300px;
@@ -200,7 +195,7 @@
     color: #000;
     margin-top: 10px;
     text-align: center;
-    width: 700px;
+    width: 50vw;
 }
 .whyButton{
     font-family: Rufina, serif;
@@ -225,18 +220,18 @@
 }
 .whySymbolXi{
     position: absolute;
-    right: 22vw;
+    right: calc(50vw - 27vw - 150px);
     top: 50px;
 }
 .whySymbolFu{
     position: absolute;
-    left: 20vw;
+    left: calc(50vw - 25vw - 200px);
     top: 200px;
 }
 .whySymbolShou{
     position: absolute;
-    right: 15vw;
-    top: 350px;
+    right: calc(50vw - 25vw - 150px);
+    top: 300px;
 }
 .scheduleCont{
     display: flex;
@@ -370,4 +365,12 @@
     color: #684296;
     font-weight: 400;
     transition-duration: 0.5s;
+}
+.formCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ACE0F1;
+    padding: 60px;
 }
