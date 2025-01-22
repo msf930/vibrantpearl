@@ -51,12 +51,23 @@ export default function Home() {
                               We apply ancient Chinese wisdom to help people address
                               the modern health ailments of today’s fast paced world.
                           </motion.p>
+                          <div className={styles.contactCont}>
+
+                          <motion.div className={styles.heroContactCont}
+                              initial={{opacity: 0, x: -100}}
+                              whileInView={{ opacity: 1, x: 0 }}
+                              transition={{ duration: 1.5, delay: 0.5 }}
+                              viewport={{ once: true }}
+                          >
+                              Call: 719-588-7280
+                          </motion.div>
                           <motion.button className={styles.heroButton}
                                          initial={{opacity: 0, x: -100}}
                                          whileInView={{ opacity: 1, x: 0 }}
                                          transition={{ duration: 1.5, delay: 0.5 }}
                                          viewport={{ once: true }}
                           >Book Now</motion.button>
+                          </div>
                       </div>
                   </div>
               </div>

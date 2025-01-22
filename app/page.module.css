@@ -78,12 +78,42 @@
     /*margin-top: 20px;*/
     text-align: start;
 }
+.contactCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+
+}
+.heroContactCont{
+    font-family: Rufina, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #684296;
+    margin-top: 0;
+    text-align: start;
+    padding: 10px 20px;
+    border: 2px solid #684296;
+    border-radius: 10px;
+    background: #ffffff;
+    cursor: pointer;
+    align-self: start;
+    transition-duration: 0.0s;
+}
+.heroContactCont:hover{
+    background: #684296;
+    color: #ffffff;
+    font-weight: 400;
+    transition-duration: 0.5s;
+}
 .heroButton{
     font-family: Rufina, serif;
     font-size: 16px;
     font-weight: 400;
     color: #3398C1;
-    margin-top: 20px;
+    margin-top: 0;
     text-align: start;
     padding: 10px 20px;
     border: 2px solid #3398C1;
