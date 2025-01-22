@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     padding: 3% 0;
-    background-color: #30303000;
+    background-color: #ffffff40;
     border: 4px solid #3398C1;
     font-family: var(--header-font);
 
@@ -223,7 +223,7 @@
     align-items: center;
     height: 50vh;
     width: 100%;
-    background-color: #30303000;
+    background-color: #ffffff00;
     border: 4px solid #3398C1;
 }
 .contactSubmitedTitle {
