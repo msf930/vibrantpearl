@@ -34,28 +34,30 @@ export default function Home() {
               <div className={styles.heroImgCont}>
                   <HeroParallax/>
                   <div className={styles.heroTextCont}>
-                      <motion.h1 className={styles.heroText}
-                                 initial={{opacity: 0, x: 100}}
-                                 whileInView={{ opacity: 1, x: 0 }}
-                                 transition={{ duration: 1.5, delay: 0.5 }}
-                                 viewport={{ once: true }}>
-                          Welcome to <span style={{color: '#684296'}}> Vibrant Pearl Acupuncture & Herbs LLC</span>
-                      </motion.h1>
-                      <motion.p className={styles.heroTextBody}
-                                initial={{opacity: 0, x: -100}}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                transition={{ duration: 1.5, delay: 0.5 }}
-                                viewport={{ once: true }}
-                      >
-                          We apply ancient Chinese wisdom to help people address
-                          the modern health ailments of today’s fast paced world.
-                      </motion.p>
-                      <motion.button className={styles.heroButton}
-                                     initial={{opacity: 0, x: -100}}
+                      <div className={styles.heroTextInnerCont}>
+                          <motion.h1 className={styles.heroText}
+                                     initial={{opacity: 0, x: 100}}
                                      whileInView={{ opacity: 1, x: 0 }}
                                      transition={{ duration: 1.5, delay: 0.5 }}
-                                     viewport={{ once: true }}
-                      >Book Now</motion.button>
+                                     viewport={{ once: true }}>
+                              Welcome to <span style={{color: '#684296'}}> Vibrant Pearl Acupuncture & Herbs LLC</span>
+                          </motion.h1>
+                          <motion.p className={styles.heroTextBody}
+                                    initial={{opacity: 0, x: -100}}
+                                    whileInView={{ opacity: 1, x: 0 }}
+                                    transition={{ duration: 1.5, delay: 0.5 }}
+                                    viewport={{ once: true }}
+                          >
+                              We apply ancient Chinese wisdom to help people address
+                              the modern health ailments of today’s fast paced world.
+                          </motion.p>
+                          <motion.button className={styles.heroButton}
+                                         initial={{opacity: 0, x: -100}}
+                                         whileInView={{ opacity: 1, x: 0 }}
+                                         transition={{ duration: 1.5, delay: 0.5 }}
+                                         viewport={{ once: true }}
+                          >Book Now</motion.button>
+                      </div>
                   </div>
               </div>
               <div className={styles.meetCont}>
@@ -116,7 +118,7 @@ export default function Home() {
                   <motion.div
                       initial={{opacity: 0, x: 100}}
                       whileInView={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 1.5, type: "spring", delay: 0.5 }}
+                      transition={{ duration: 1.3, type: "spring", delay: 0.5 }}
                       viewport={{ once: true }}
                       className={styles.whySymbolXi}
                   >
@@ -125,7 +127,7 @@ export default function Home() {
                   <motion.div
                       initial={{opacity: 0, x: -100}}
                       whileInView={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 1.5, type: "spring", delay: 0.5 }}
+                      transition={{ duration: 1.3, type: "spring", delay: 0.5 }}
                       viewport={{ once: true }}
                       className={styles.whySymbolFu}
                   >
@@ -134,7 +136,7 @@ export default function Home() {
                   <motion.div
                       initial={{opacity: 0, x: 100}}
                       whileInView={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 1.5, type: "spring", delay: 0.5 }}
+                      transition={{ duration: 1.3, type: "spring", delay: 0.5 }}
                       viewport={{ once: true }}
                       className={styles.whySymbolShou}
                   >

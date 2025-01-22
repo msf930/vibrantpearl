@@ -1,3 +1,7 @@
+
+.perspectiveCont{
+    perspective: 800px;
+}
 .symbolCont{
     display: flex;
     flex-direction: column;
