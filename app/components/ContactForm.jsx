@@ -57,7 +57,7 @@ const ContactForm = () => {
             <div className={styles.contactSubmited}>
                 <div className={styles.contactSubmitedTitle}>{result[0]}</div>
                 <div className={styles.contactSubmitedBody}>{result[1]}</div>
-                <button className="w-[100%] justify-center items-center py-3 text-white" onClick={() => setSubmitted(false)}>Reset</button>
+                <button className="w-[100%] justify-center items-center py-3 text-black" onClick={() => setSubmitted(false)}>Reset</button>
             </div>
         );
     }

@@ -223,13 +223,14 @@
     align-items: center;
     height: 50vh;
     width: 100%;
-    background-color: #303030;
+    background-color: #30303000;
+    border: 4px solid #3398C1;
 }
 .contactSubmitedTitle {
-    color: #fff;
+    color: #000;
     font-size: x-large;
 }
 .contactSubmitedBody {
-    color: #fff;
+    color: #000;
     font-size: large;
 }

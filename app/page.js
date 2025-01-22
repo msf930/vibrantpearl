@@ -16,6 +16,7 @@ import HeroParallax from "@/app/components/HeroParallax.jsx";
 import Symbol from "@/app/components/Symbol";
 import HomeEvent from "@/app/components/HomeEvent";
 import ContactForm from "@/app/components/ContactForm";
+import Footer from "@/app/components/Footer";
 
 export default function Home() {
   return (
@@ -268,6 +269,7 @@ export default function Home() {
               <div className={styles.formCont}>
                   <ContactForm/>
               </div>
+              <Footer/>
           </motion.div>
       </AnimatePresence>
   );
