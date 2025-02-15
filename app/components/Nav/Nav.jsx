@@ -2,7 +2,7 @@
 
 import styles from "./Nav.module.css";
 
-import Logo from "@/public/Logo.png";
+import Logo from "@/public/VPLogoEdit.png";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -63,7 +63,7 @@ export default function Nav() {
         >
             <nav className={styles.navCont}>
                 <div className={styles.navImgCont}>
-                    <Link href="/">
+                    <Link href="/public">
 
                         <Image src={Logo} alt="logo" height={79} width={250}/>
 
@@ -79,8 +79,8 @@ export default function Nav() {
                     </div>
                     <div>
                         <Link
-                            className={pathname === "/scheduling" ? styles.navBarLinkActive : styles.navBarLink}
-                            href="/scheduling">
+                            className={pathname === "/schedule" ? styles.navBarLinkActive : styles.navBarLink}
+                            href="/schedule">
                             Scheduling
                         </Link>
                     </div>
@@ -109,18 +109,20 @@ export default function Nav() {
 
                 </div>
             </nav>
-            <nav className={styles.navContMobile}>
-                <div className={styles.navLogoMobile}>
-                    <Link href="/">
-                        <Image src="/Logo.png" alt="logo" height={50} width={50}/>
-                    </Link>
-                </div>
-                <div>
-                    <button className={navIcon} onClick={handleShowNavbar}>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
+            <div className={styles.navContMobile}>
+                <div className={styles.headerCont}>
+                    <div className={styles.navLogoMobile}>
+                        <Link href="/">
+                            <Image src="/Logo.png" alt="logo" height={60} width={100}/>
+                        </Link>
+                    </div>
+                    <div>
+                        <button className={navIcon} onClick={handleShowNavbar}>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
                 </div>
                 <div
                     className={
@@ -169,7 +171,7 @@ export default function Nav() {
                         </ul>
                     </nav>
                 </div>
-            </nav>
+            </div>
         </motion.header>
     );
 }

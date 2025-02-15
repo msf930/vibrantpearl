@@ -1,4 +1,4 @@
-@media (min-width: 640px){
+@media (max-width: 640px){
     .parallax{
         left: 0;
         width: 100vw;
@@ -11,7 +11,7 @@
     }
 }
 
-@media (min-width: 1050px){
+@media (min-width: 640px){
     .parallax{
         left: 0;
         width: 100vw;

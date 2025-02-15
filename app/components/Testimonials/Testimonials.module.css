@@ -1,0 +1,100 @@
+@media (max-width: 650px) {
+
+
+    .testimonialTextCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background: #ffffff70;
+        padding: 40px;
+        height: 350px;
+        width: 100vw;
+    }
+
+    .testimonialTitle {
+        font-family: var(--header-font);
+        font-size: 14px;
+        font-weight: 700;
+        color: #000;
+        text-align: center;
+        width: auto;
+        padding-top: 30px;
+
+
+    }
+
+    .testimonialButton {
+        font-family: var(--header-font);
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px 20px;
+        border: 2px solid #684296;
+        border-radius: 10px;
+        background: #684296;
+        cursor: pointer;
+        align-self: center;
+        transition-duration: 0.5s;
+    }
+
+    .testimonialButton:hover {
+        background: #ffffff;
+        color: #684296;
+        font-weight: 400;
+        transition-duration: 0.5s;
+    }
+}
+@media (min-width: 650px) {
+
+
+    .testimonialTextCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background: #ffffff70;
+        padding: 40px;
+        height: 350px;
+        width: 80vw;
+    }
+
+    .testimonialTitle {
+        font-family: var(--header-font);
+        font-size: 20px;
+        font-weight: 700;
+        color: #000;
+        text-align: center;
+        width: auto;
+        padding-top: 30px;
+
+
+    }
+
+    .testimonialButton {
+        font-family: var(--header-font);
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px 20px;
+        border: 2px solid #684296;
+        border-radius: 10px;
+        background: #684296;
+        cursor: pointer;
+        align-self: center;
+        transition-duration: 0.5s;
+    }
+
+    .testimonialButton:hover {
+        background: #ffffff;
+        color: #684296;
+        font-weight: 400;
+        transition-duration: 0.5s;
+    }
+}

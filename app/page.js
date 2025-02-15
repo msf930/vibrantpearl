@@ -7,16 +7,17 @@ import { motion, AnimatePresence } from "motion/react";
 import styles from "./page.module.css";
 
 import billy from "@/public/HeadshotShape.png";
-import homeImage1 from "@/public/homeImages1.png";
-import homeImage2 from "@/public/homeImages2.png";
-import homeImage3 from "@/public/homeImages3.png";
+import homeImage1 from "@/public/homeImage1.jpeg";
+import homeImage2 from "@/public/homeImage2.jpeg";
+import homeImage3 from "@/public/homeImage3.jpeg";
 
-import Nav from "@/app/components/Nav";
-import HeroParallax from "@/app/components/HeroParallax.jsx";
-import Symbol from "@/app/components/Symbol";
-import HomeEvent from "@/app/components/HomeEvent";
-import ContactForm from "@/app/components/ContactForm";
-import Footer from "@/app/components/Footer";
+import Nav from "@/app/components/Nav/Nav";
+import HeroParallax from "@/app/components/HeroParallax/HeroParallax.jsx";
+import Symbol from "@/app/components/Symbol/Symbol";
+import HomeEvent from "@/app/components/HomeEvent/HomeEvent";
+import Testimonials from "@/app/components/Testimonials/Testimonials";
+import ContactForm from "@/app/components/ContactForm/ContactForm";
+import Footer from "@/app/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -48,8 +49,8 @@ export default function Home() {
                                     transition={{ duration: 1.5, delay: 0.5 }}
                                     viewport={{ once: true }}
                           >
-                              We apply ancient Chinese wisdom to help people address
-                              the modern health ailments of today’s fast paced world.
+                              We help people find relief from ailments by blending
+                              ancient Chinese wisdom and modern research.
                           </motion.p>
                           <div className={styles.contactCont}>
 
@@ -100,9 +101,10 @@ export default function Home() {
                           <h1 className={styles.meetSubTitle}>Billy Che Quintana </h1>
                           <h2 className={styles.meetTitle}>L.Ac., Dipl. O.M</h2>
                           <p className={styles.meetText}>
-                              Billy Che Quintana is our practitioner of traditional
-                              Chinese medicine and acupuncture who helps individuals
-                              find and maintain balance for lasting health and beauty.
+                              Billy Che Quintana is a seasoned practitioner with 10
+                              plus years of experience in private practice, a Master&#39;s
+                              Degree of Traditional Chinese Medicine, and has acquired continuing
+                              education in Facial Rejuvenation Acupuncture and Scalp Acupuncture.
                           </p>
                           <button className={styles.meetButton}>Learn More</button>
                       </motion.div>
@@ -115,14 +117,13 @@ export default function Home() {
                               transition={{ duration: 1.5, delay: 0.3 }}
                               viewport={{ once: true }}
                   >
-                      <h1 className={styles.whyTitle}>Why choose Vibrant Pearl Acupuncture?</h1>
+                      <h1 className={styles.whyTitle}>Why Choose Vibrant Pearl Acupuncture and Herbs?</h1>
                       <hr className={styles.whyHr}/>
                       <p className={styles.whyText}>
-                          We are Denver’s premier clinic of traditional Chinese Medicine and acupuncture with a cozy
-                          feel, a pace that is not rushed, and most importantly a caring and warm practitioner.
-                          <br/><br/>
-                          We welcome individuals of all sexes, gender identities, orientations, races, and walks of
-                          life.
+                          Our clinic provides a cozy feel, a pace that is not rushed, and a warm caring practitioner.
+                          Each treatment, from the techniques used to the intensity of each therapeutic method, is
+                          custom tailored to better help each patient. We also gladly welcome individuals of all sexes,
+                          gender identities, orientations, races, and walks of life.
                       </p>
                       <button className={styles.whyButton}>Book Now</button>
                   </motion.div>
@@ -133,7 +134,7 @@ export default function Home() {
                       viewport={{ once: true }}
                       className={styles.whySymbolXi}
                   >
-                    <Symbol type="xi"/>
+                    <Symbol type="water"/>
                   </motion.div>
                   <motion.div
                       initial={{opacity: 0, x: -100}}
@@ -142,7 +143,7 @@ export default function Home() {
                       viewport={{ once: true }}
                       className={styles.whySymbolFu}
                   >
-                    <Symbol type="fu"/>
+                    <Symbol type="fire"/>
                   </motion.div>
                   <motion.div
                       initial={{opacity: 0, x: 100}}
@@ -151,7 +152,7 @@ export default function Home() {
                       viewport={{ once: true }}
                       className={styles.whySymbolShou}
                   >
-                    <Symbol type="shou"/>
+                    <Symbol type="earth"/>
                   </motion.div>
               </div>
               <div className={styles.scheduleCont}>
@@ -189,7 +190,7 @@ export default function Home() {
                           <HomeEvent id={3}/>
                       </motion.div>
                   </div>
-                  <button className={styles.scheduleButton}>All Appointments</button>
+                  <a href="/schedule" className={styles.scheduleButton}>All Appointments</a>
               </div>
               <div className={styles.imagesCont}>
                   <div className={styles.imagesRowCont}>
@@ -207,13 +208,13 @@ export default function Home() {
                               objectFit="contain"
                           />
                       </motion.div>
-                      <motion.div className={styles.imagesItemCont}
+                      <motion.div className={styles.imagesItemContSymbol}
                                   initial={{opacity: 0, x: 100}}
                                   whileInView={{opacity: 1, x: 0}}
                                   transition={{duration: 1.2, delay: 0.5}}
                                   viewport={{once: true}}
                       >
-                          <Symbol type="shuangxi"/>
+                          <Symbol type="wood"/>
                       </motion.div>
                       <motion.div className={styles.imagesItemCont}
                                   initial={{opacity: 0, x: 100}}
@@ -231,13 +232,13 @@ export default function Home() {
                       </motion.div>
                   </div>
                   <div className={styles.imagesRowCont}>
-                      <motion.div className={styles.imagesItemCont}
+                      <motion.div className={styles.imagesItemContSymbol}
                                   initial={{opacity: 0, x: -100}}
                                   whileInView={{opacity: 1, x: 0}}
                                   transition={{duration: 1.2, delay: 0.0}}
                                   viewport={{once: true}}
                       >
-                          <Symbol type="cai"/>
+                          <Symbol type="metal"/>
                       </motion.div>
                       <motion.div className={styles.imagesItemCont}
                                   initial={{opacity: 0, x: -100}}
@@ -253,31 +254,19 @@ export default function Home() {
                               objectFit="contain"
                           />
                       </motion.div>
-                      <motion.div className={styles.imagesItemCont}
+                      <motion.div className={styles.imagesItemContSymbol}
                                   initial={{opacity: 0, x: -100}}
                                   whileInView={{opacity: 1, x: 0}}
                                   transition={{duration: 1.2, delay: 1.0}}
                                   viewport={{once: true}}
                       >
-                          <Symbol type="lu"/>
+                          <Symbol type="qi"/>
                       </motion.div>
                   </div>
               </div>
               <div className={styles.testimonialCont}>
-                  <motion.div className={styles.testimonialTextCont}
-                              initial={{opacity: 0}}
-                              whileInView={{opacity: 1}}
-                              transition={{duration: 1.2, delay: 0.7}}
-                              viewport={{once: true}}>
-                      <h1 className={styles.testimonialTitle}>
-                          &#34;Had THE BEST Acupuncture treatment tonight with Billy Quintana.
-                          So relaxing. Definitely check him out if you are in need.&#34;
-                      </h1>
-                      <h1 className={styles.testimonialTitle}>
-                          - Tonya
-                      </h1>
-                      <button className={styles.testimonialButton}>Book Now</button>
-                  </motion.div>
+                  <Testimonials/>
+
               </div>
               <div className={styles.formCont}>
                   <ContactForm/>

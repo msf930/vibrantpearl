@@ -1,15 +1,15 @@
-import { Rufina, Oxygen } from "next/font/google";
+import { Cormorant, Open_Sans } from "next/font/google";
 import "./globals.css";
 
 import {ReactLenis} from '@/app/utils/lenis';
 
-const rufinaSans = Rufina({
+const rufinaSans = Cormorant({
   variable: "--font-rufina-sans",
   subsets: ["latin"],
     weight: ['400', '700'],
 });
 
-const oxygen = Oxygen({
+const oxygen = Open_Sans({
   variable: "--font-oxygen-mono",
   subsets: ["latin"],
     weight: ['400', '700'],

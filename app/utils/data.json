@@ -29,6 +29,36 @@
       "name": "lu",
       "text": "Lu – Luck",
       "image": "luLuck.png"
+    },
+    {
+      "name": "water",
+      "text": "Shui - Water",
+      "image": "water.png"
+    },
+    {
+      "name": "fire",
+      "text": "Huo - Fire",
+      "image": "fire.png"
+    },
+    {
+      "name": "earth",
+      "text": "Di - Earth",
+      "image": "earth.png"
+    },
+    {
+      "name": "wood",
+      "text": "Mu - Wood",
+      "image": "wood.png"
+    },
+    {
+      "name": "metal",
+      "text": "Jin - Metal",
+      "image": "metal.png"
+    },
+    {
+      "name": "qi",
+      "text": "Qi - Vital Energy",
+      "image": "qi.png"
     }
   ],
   "homeEvents": [
@@ -49,6 +79,28 @@
       "image": "homeEvent3.png",
       "name": "Chinese Herbal Consultation",
       "duration": "1/2 Hour"
+    }
+  ],
+  "heroSmall": [
+    {
+      "type": "schedule",
+      "image": "/scheduleHero.png",
+      "title": "Book With Us",
+      "subtitle": "Select from our services below or call now for more info"
+    }
+  ],
+  "testimonials": [
+    {
+      "body": "Had THE BEST Acupuncture treatment tonight with Billy Quintana.  So relaxing. Definitely check him out if you are in need.",
+      "name": "Tonya"
+    },
+    {
+      "body": "I have been going to Billy since last year to work on anxiety and nervous system regulation, and he is brilliant. He is the first acupuncturist I've tried where I actually feel a full body release and parasympathetic downshifts each session. It helps too that he is so thorough, gives you 90 min of care and attention, and follows needling with manual therapy. I highly highly recommend him.",
+      "name": "Caroline"
+    },
+    {
+      "body": "Billy is amazing!! He really helped with my hip/shoulder pain and anxiety. He is so skilled and has a very gentle nurturing touch. Also, his space is so beautiful and inviting! I love my visits with him.",
+      "name": "Aspen"
     }
   ]
 }

@@ -32,7 +32,6 @@ const Symbol = ({ type }) => {
                 className="transition-transform ease-out hover:[transform:rotateX(var(--x-rotation))_rotateY(var(--y-rotation))_scale(1.1)]">
                 <div className={styles.symbolCont}>
                     <div className={styles.symbolImg}>
-
                         <img src={`/${symbol.image}`} alt={symbol.text} draggable={false}/>
                     </div>
                     <h1 className={styles.symbolText}>{symbol.text}</h1>

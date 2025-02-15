@@ -13,7 +13,7 @@ const HomeEvent = ({ id }) => {
             <div className={styles.eventTextCont}>
                 <h1 className={styles.eventText}>{event.name}</h1>
                 <h2 className={styles.eventDuration}>{event.duration}</h2>
-                <button className={styles.eventButton}>Book Now</button>
+                <a href="/schedule" className={styles.eventButton}>Book Now</a>
             </div>
         </div>
     )

@@ -9,7 +9,7 @@
     --colorD: #3A5A40;
     --colorE: #344E41;
 
-    --light-bg: #DAD7CD;
+    --light-bg: #ABDFF0;
     --dark-bg: #344E41;
 
     --white-font: #ffffff;
@@ -22,6 +22,7 @@
     --header-lg-font: 48px;
     --header-md-font: 40px;
     --header-sm-font: 32px;
+    --header-sub-font: 24px;
     --body-lg-font: 28px;
     --body-md-font: 20px;
     --body-sm-font: 16px;
