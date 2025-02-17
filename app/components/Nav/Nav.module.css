@@ -1,4 +1,4 @@
-@media (max-width: 640px){
+@media (max-width: 650px){
     .nav {
         position: fixed;
         width: 100vw;
@@ -279,11 +279,11 @@
 
 }
 
-@media (min-width: 640px){
+@media (min-width: 650px) and (max-width: 850px){
     .nav {
         position: fixed;
         width: 100vw;
-        height: 140px;
+        height: 100px;
         z-index: 200;
         overflow: hidden;
         font-family: Rufina, serif;
@@ -295,7 +295,7 @@
         padding: 0 30px;
         background-color: rgba(255, 255, 255, 0.8);
         width: 100vw;
-        height: 145px;
+        height: 100px;
 
 
     }
@@ -344,7 +344,7 @@
 
 }
 
-@media (min-width: 1050px){
+@media (min-width: 850px){
     .nav {
         position: fixed;
         width: 100vw;

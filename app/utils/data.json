@@ -87,6 +87,12 @@
       "image": "/scheduleHero.png",
       "title": "Book With Us",
       "subtitle": "Select from our services below or call now for more info"
+    },
+    {
+      "type": "treatments",
+      "image": "/treatmentsHero.png",
+      "title": "Our Services",
+      "subtitle": "Learn more about our services below"
     }
   ],
   "testimonials": [
@@ -108,5 +114,253 @@
     "section2": "He has over 10 years of clinical experience and maintains his license of Acupuncture with the Colorado Department of Regulatory Agencies (DORA). He earned his Master’s of Traditional Chinese Medicine from the Colorado School of Traditional Chinese Medicine (CSTCM), now called Colorado Chinese Medicine University (CCMU) in Denver, Colorado and is certified as a Diplomat of Oriental Medicine by the National Certification Commission for Acupuncture and Oriental Medicine (NCCAOM). Continuing to be active in the academic community he teaches basic biochemistry and supervises in the student clinic at CCMU.",
     "section3": "Billy loves to learn and enrolls frequently in continuing education programs. He obtained a certificate from the Center for Rejuvenation Acupuncture LLC where he obtained knowledge in skin health and a unique style of acupuncture to reduce fine lines, lift the face, and encourage radiant skin. He also holds a Level 1 Certification from the Neuro Acupuncture Institute in Santa Fe, NM, with extensive knowledge in treating neurological ailments using scalp\nacupuncture. Currently, he is enrolled in a program studying the 5 elements style of acupuncture to better address mental emotion related ailments.",
     "section4": "With a strong interest in LGBTQ (lesbian, gay, bisexual, transgender, and queer) health issues Billy strives to ensure that the LGBTQ community has access to safe and friendly healthcare services. He currently maintains his membership with the GLMA (Gay and Lesbian Medical Association) and is always looking for ways to be involved in the LGBTQ community."
-  }
+  },
+  "treatments": [
+    {
+      "name": "Acupuncture",
+      "title": "What is Acupuncture?",
+      "content": [
+        {
+          "type": "p",
+          "body": "Acupuncture is the insertion of thin needles into various parts of the body. In traditional Chinese medicine (TCM) acupuncture influences Qi (pronounced “chee”), the energy or life force that flows through the body in a system of channels. Depending on the technique of the acupuncturist, Qi can either be drawn to an area that is deficient or disperse Qi that has become stuck. Areas of the body deficient in Qi will typically be withered, weak, and not functioning optimally, like a muscle that has atrophied. Areas with stuck Qi will typically feel tight, bound up, painful, and be warm to the touch, like a strained muscle."
+        },
+        {
+          "type": "p",
+          "body": "The location of the points needled in a treatment can vary. Many times points near the tissues or organs in need of help may be needled. For example, with digestive discomfort points on the abdomen may be needled. Points away or distally from the unwell tissues or organs may also be selected. These points will often be selected to influence the Qi further down the channel from the tissue or organ needing help. These points are used to draw the Qi down the channel, like opening a second window to create a current when drawing smoke out of your home."
+        },
+        {
+          "type": "p",
+          "body": "Additionally, points have been documented to have certain effects. These documented effects can be physical, as in increasing the movement of intestines, or mental-emotional, as in helping one embrace flexibility or joy in a situation. Lastly, in TCM certain parts of the body can be seen as a microsystem of the whole body. Thus, there is a corresponding spot on the smaller part that can affect the corresponding organ or area of the larger whole body. For example, one could needled the Stomach point on the ear to draw the body’s attention to the Stomach."
+        },
+        {
+          "type": "p",
+          "body": "From a western medicine and science perspective:"
+        },
+        {
+          "type": "p",
+          "body": "From a western perspective acupuncture generates micro traumas in the soft tissues. The body responds by initiating its various ways of repairing and healing. Often times these will include releasing anti-inflammatory molecules, pain relievers, and increasing blood flow. Additionally, soft tissues like muscles, tendons, ligaments, and connective tissue like fascia respond to the acupuncture by relaxing. Some studies also show that acupuncture helps regulate the nervous system in various ways, including the releasing of soothing neurotransmitters like dopamine and serotonin. Inside the brain the activity of various areas is shown to be affected differently depending on where the needles are placed. Areas that were hyperactive can settle down and areas that were hypoactive will be stimulated after the needling of certain acupuncture points. However, the effects of acupuncture for a western scientific perspective is still an ongoing process with various studies being conducted and adding to our knowledge."
+        },
+        {
+          "type": "Image",
+          "body": "/treatAcupuncture1.png"
+        }
+      ]
+
+    },
+    {
+      "name": "What Acupuncture Treats",
+      "title": "Acupuncture and Traditional Chinese Medicine is recognized to help provide relief from a variety of ailments including the following:",
+      "content": [
+        {
+          "type": "iconLg",
+          "body": [
+            "/stomach.png",
+            "Digestive Issues:",
+            "chronic abdominal pain, gastritis, morning sickness, nausea and vomiting, acid reflux, lack of appetite, excessive appetite, ulcers, ulcerative colitis, constipation, hemorrhoids, diarrhea, bowl urgency, hepatitis and non insulin dependent diabetes mellitus."
+          ]
+        },
+        {
+          "type": "iconLg",
+          "body": [
+            "/lungs.png",
+            "Respiratory Issues:",
+            "rhinitis, chronic cough, sore throat, common cold, congestion and asthma."
+          ]
+        },
+        {
+          "type": "iconLg",
+          "body": [
+            "/brain.png",
+            "Neurological Issues:",
+            "Bell’s palsy, facial spasms & tics, fibromyalgia, headaches, sciatica, numbness and tingling."
+          ]
+        },
+        {
+          "type": "iconLg",
+          "body": [
+            "/uterus.png",
+            "Gynecological Issues:",
+            "dysmenorrhoea, amenorrhea, heavy flow, female infertility, premenstrual syndrome, digestive upset with period and polycystic ovary syndrome."
+          ]
+        },
+        {
+          "type": "iconLg",
+          "body": [
+            "/bladder.png",
+            "Urological Issues:",
+            "male sexual dysfunction, prostatitis, retention of urine, urinary urgency, chronic bladder infections, bed wetting, chronic excessive night urination and lack of libido."
+          ]
+        },
+        {
+          "type": "iconLg",
+          "body": [
+            "/pain-point.png",
+            "Pain:",
+            "ear aches, joint pains, gout, TMJ, stiff joints, low back pain, neck pain, stress tension, osteo-arthritis, rheumatoid arthritis, postoperative pain, Raynaud’s syndrome, sciatica, sprains and carpal tunnel syndrome."
+          ]
+        },
+        {
+          "type": "iconLg",
+          "body": [
+            "/solidarity.png",
+            "Other:",
+            "insomnia, depression, irritability, anger issues, epistaxis, herpes zonster acne, itchy skin, obesity, hot flashes, night sweating, cravings for sweets and addictions."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Facial Rejuvenation Acupuncture",
+      "title": "What is Facial Rejuvenation Acupuncture?",
+      "content": [
+        {
+          "type": "Image",
+          "body": "/treatFacial1.png"
+        },
+        {
+          "type": "p",
+          "body": "Facial rejuvenation acupuncture is a form of cosmetic acupuncture that is specifically designed to address issues of the skin on the face. It employs techniques developed to plump the skin, smooth wrinkles, reduce sagging, and promote radiant even toned skin. In addition, various other parts of the body, the mind, and emotions are incorporated in the treatment to support healthy skin from the inside."
+        },
+        {
+          "type": "Image",
+          "body": "/treatFacial2.png"
+        },
+        {
+          "type": "p",
+          "body": "In traditional Chinese medical theory Qi, which includes life force responsible for bodily functions, and blood are encouraged to come to the skin. In addition, treatments strengthen Qi that is responsible for digestion, distribution of nutrients, and the lifting of tissues and organs. In western medical thought, the needles generate micro-trauma to the dermis that encourages the body to generate more collagen and increase local blood circulation."
+        },
+        {
+          "type": "Image",
+          "body": "/treatFacial3.png"
+        },
+        {
+          "type":"header",
+          "body": "Who is a good candidate for Facial Rejuvenation Acupuncture?"
+        },
+        {
+          "type": "subHeader",
+          "body": "Anyone looking for an alternative for:"
+        },
+        {
+          "type": "ul",
+          "body": [
+            "Botox",
+            "Facial Chemical Peels",
+            "Restylane injections",
+            "Facelifts"
+          ]
+        },
+        {
+          "type": "subHeader",
+          "body": "Anyone needing treatment for:"
+        },
+        {
+          "type": "ul",
+          "body": [
+            "Acne",
+            "Rosacea",
+            "Dry skin"
+          ]
+        },
+        {
+          "type": "subHeader",
+          "body": "OR Anyone wanting a more Radiant and Healthy complexion!"
+        },
+        {
+          "type":"header",
+          "body": "What is involved?"
+        },
+        {
+          "type": "p",
+          "body": "A Facial Rejuvenation protocol consists of two sessions per week for 5 weeks or one session per week for 10 weeks . In addition, a regular home skin regimen is developed with high quality products. After the protocol is completed, one Facial Rejuvenation session per year is encouraged to maintain the lasting results."
+        }
+      ]
+    },
+    {
+      "name": "Chinese Medicine",
+      "title": "What is Traditional Chinese Medicine?",
+      "content": [
+        {
+          "type": "p",
+          "body": "Traditional Chinese Medicine (TCM) is a practice with approximately 3000 years of documented history. Over the centuries theories and methods have been tried, tested, and many have been discarded.  Because of the existence of many variations of this traditional medicine throughout China,  in the 1900s under the ruling of Mao a standard of TCM was established by the government. This standard practice has become what is referred to as TCM in mainstream society today."
+        },
+        {
+          "type": "p",
+          "body": "In TCM various paradigms are used to explain why an illness or ailment is occurring, how it came about, and how it can be alleviated.  "
+        },
+        {
+          "type": "p",
+          "body": "These different paradigms include:"
+        },
+        {
+          "type": "ol",
+            "body": [
+                "The Five Elements (earth, metal, water, wood, and fire),",
+                "Yin and Yang Theory",
+                "The Five Vital Substances ( Qi, Blood, Essence, Body Fluids, and Mind)"
+            ]
+        },
+        {
+          "type": "p",
+          "body": "In optimum health there is a balance that is maintained in all of these paradigms. An ill individual has been knocked off balance in one or many of these systems.  For example, nausea can be seen as Rebellious Qi (Energy) of the Stomach. The nausea is experienced because the Qi (Energy) is flowing upward instead of the natural downward direction of the digestive tract. To regain health it is essential to find how one is off balance, how to correct it, and the cause that resulted in the shift. In our example, to correct the nausea first we must determine a means to bring the Qi (Energy) of the Stomach back down. This can be done with many techniques like acupuncture.  Lastly, it is essential to determine what was the cause of the nausea. Some causes of nausea include but not limited to overeating, ingesting unclean or cold food, or a weak digestive system. "
+        },
+        {
+          "type": "p",
+          "body": "Techniques used by practitioners of TCM to correct an imbalance include acupuncture, cupping, gua sha (scraping), heat therapy, bleeding, herbal therapies, moxibustion, and tui na (traditional Chinese therapeutic massage).\nTo keep someone from falling back out of balance and address the cause of the imbalance a practitioner may recommend dietary and lifestyle changes. "
+        },
+        {
+          "type": "ImageVertical",
+          "body": "/CTM.jpeg"
+        },
+        {
+          "type": "header",
+          "body": "Techniques used in Traditional Chinese Medicine:"
+        },
+        {
+          "type": "iconSm",
+          "body": [
+            "/glass.png",
+            "Cupping",
+            "a technique in which cups made of glass or other materials are placed on the skin with a vacuum created by heat or other device.",
+            "/gua-sha.png",
+            "Gua Sha",
+            "pressure and scraping of the skin with a Chinese message tool."
+          ]
+        },
+        {
+          "type": "iconSm",
+          "body": [
+              "/heat.png",
+              "Heating Lamp or Pad",
+              "a product that produces heat on the acupuncture points and meridians.",
+              "/flash.png",
+              "Electrical Acupuncture",
+              "use of an electrical device to produce electrical stimulation on the acupuncture needles."
+          ]
+        },
+          {
+          "type": "iconSm",
+          "body": [
+              "/blood.png",
+              "Bleeding",
+              "a small puncture made in skin allowing for the bleeding of a few drops of blood.",
+              "/herb.png",
+              "Herbs",
+              "traditional Chinese herbs in pills, powders, tinctures, liniments, pastes, or plasters. Herbal formulas may include shell, mineral, and animal materials."
+            ]
+          },
+        {
+          "type": "iconSm",
+          "body": [
+            "/needle.png",
+            "Moxa",
+            "indirect burning on an acupuncture point using stick, rice grain, or needle moxa to relieve symptoms.",
+            "/massage.png",
+            "Tui Na",
+            "a therapeutic traditional Chinese message."
+          ]
+        }
+      ]
+    }
+  ]
 }

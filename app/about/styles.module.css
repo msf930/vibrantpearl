@@ -1,3 +1,274 @@
+@media (max-width: 650px){
+    .page {
+        overflow: hidden;
+    }
+
+    .navCont {
+        z-index: 1000;
+    }
+
+    .aboutHeadSpacer {
+        height: 70px;
+        width: 100vw;
+    }
+
+    .aboutOneCont {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+
+        height: auto;
+
+    }
+
+    .aboutOneLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+
+        height: 100%;
+        gap: 20px;
+        padding: 5%;
+        text-align: start;
+        background: linear-gradient(to top, #ffffff, #ABDFF0);
+    }
+
+    .aboutOneLeft h1 {
+        font-family: var(--header-font);
+        font-size: clamp(var(--header-sm-font),2vw, var(--header-lg-font));
+        width: 100%;
+    }
+
+    .aboutOneLeft p {
+        font-family: var(--body-font);
+        font-size: clamp(var(--body-xsm-font),1.5vw, var(--header-sub-font));
+        width: 100%;
+    }
+
+    .aboutOneRight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 100vw;
+        height: auto;
+        text-align: center;
+        color: white;
+        background-color: var(--dark-bg);
+        padding: 5%;
+    }
+
+    .headshotCont {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 500px;
+        width: calc(100vw * 0.8);
+        height: auto;
+
+    }
+
+    .infoTitle {
+        font-family: var(--header-font);
+        font-size: var(--header-sm-font);
+    }
+
+    .infoBody {
+        font-family: var(--header-font);
+        font-size: var(--header-sub-font);
+    }
+
+    .aboutTwoCont {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+        height: auto;
+    }
+
+    .aboutTwoLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100%;
+        text-align: center;
+        color: white;
+        background-color: var(--accent-font);
+        padding: 5%;
+    }
+
+    .aboutTwoRight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+        padding: 5%;
+        text-align: start;
+        background: white;
+    }
+
+    .aboutTwoRight p {
+        font-family: var(--body-font);
+        font-size: clamp(var(--body-xsm-font),1.5vw, var(--header-sub-font));
+        width: 100%;
+    }
+
+    .formCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ACE0F1;
+        padding: 60px;
+    }
+}
+@media (min-width: 650px) and (max-width: 850px) {
+    .page {
+        overflow: hidden;
+    }
+
+    .navCont {
+        z-index: 1000;
+    }
+
+    .aboutHeadSpacer {
+        height: 100px;
+        width: 100vw;
+    }
+
+    .aboutOneCont {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+
+        height: auto;
+
+    }
+
+    .aboutOneLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+
+        height: 100%;
+        gap: 20px;
+        padding: 5%;
+        text-align: start;
+        background: linear-gradient(to top, #ffffff, #ABDFF0);
+    }
+
+    .aboutOneLeft h1 {
+        font-family: var(--header-font);
+        font-size: clamp(var(--header-sm-font),2vw, var(--header-lg-font));
+        width: 100%;
+    }
+
+    .aboutOneLeft p {
+        font-family: var(--body-font);
+        font-size: clamp(var(--body-xsm-font),1.5vw, var(--header-sub-font));
+        width: 100%;
+    }
+
+    .aboutOneRight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 100vw;
+        min-height: 900px;
+        height: 100%;
+        text-align: center;
+        color: white;
+        background-color: var(--dark-bg);
+        padding: 5%;
+    }
+
+    .headshotCont {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 500px;
+        width: calc(50vw * 0.8);
+        height: calc(50vh * 0.8);
+
+    }
+
+    .infoTitle {
+        font-family: var(--header-font);
+        font-size: var(--header-sm-font);
+    }
+
+    .infoBody {
+        font-family: var(--header-font);
+        font-size: var(--header-sub-font);
+    }
+
+    .aboutTwoCont {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+        height: auto;
+    }
+
+    .aboutTwoLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100%;
+        text-align: center;
+        color: white;
+        background-color: var(--accent-font);
+        padding: 5%;
+    }
+
+    .aboutTwoRight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+        padding: 5%;
+        text-align: start;
+        background: white;
+    }
+
+    .aboutTwoRight p {
+        font-family: var(--body-font);
+        font-size: clamp(var(--body-xsm-font),1.5vw, var(--header-sub-font));
+        width: 100%;
+    }
+
+    .formCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ACE0F1;
+        padding: 60px;
+    }
+}
 @media (min-width: 850px) {
     .page {
         overflow: hidden;
@@ -18,7 +289,9 @@
         align-items: center;
         justify-content: space-between;
         width: 100vw;
+        min-height: 900px;
         height: auto;
+
     }
 
     .aboutOneLeft {
@@ -27,7 +300,8 @@
         align-items: center;
         justify-content: center;
         width: 55vw;
-        height: calc(100vh - 100px);
+        min-height: 900px;
+        height: 100%;
         gap: 20px;
         padding: 5%;
         text-align: start;
@@ -36,7 +310,7 @@
 
     .aboutOneLeft h1 {
         font-family: var(--header-font);
-        font-size: var(--header-lg-font);
+        font-size: clamp(var(--header-sm-font),2vw, var(--header-lg-font));
         width: 100%;
     }
 
@@ -53,7 +327,8 @@
         justify-content: center;
         gap: 20px;
         width: 45vw;
-        height: calc(100vh - 100px);
+        min-height: 900px;
+        height: 100%;
         text-align: center;
         color: white;
         background-color: var(--dark-bg);
@@ -65,8 +340,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 80%;
-        height: 80%;
+        min-height: 500px;
+        width: calc(50vw * 0.8);
+        height: calc(50vh * 0.8);
 
     }
 
@@ -95,7 +371,8 @@
         align-items: center;
         justify-content: center;
         width: 45vw;
-        height: 100vh;
+        min-height: 900px;
+        height: 100%;
         text-align: center;
         color: white;
         background-color: var(--accent-font);
@@ -108,7 +385,8 @@
         align-items: center;
         justify-content: center;
         width: 55vw;
-        height: 100vh;
+        min-height: 900px;
+        height: 100%;
         padding: 5%;
         text-align: start;
         background: white;

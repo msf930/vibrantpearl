@@ -1,0 +1,848 @@
+@media(max-width: 650px){
+    .page{
+        overflow: hidden;
+    }
+    .navCont{
+        z-index: 1000;
+    }
+    .treatCont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        width: 100vw;
+        height: auto;
+    }
+    .aside{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 100vw;
+        background-color: var(--dark-bg);
+        color: white;
+    }
+    .aside h1{
+        font-family: var(--header-font);
+        font-size: var(--header-sm-font);
+        font-weight: 400;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .aside h2{
+        font-family: var(--header-font);
+        font-size: var(--header-sub-font);
+        font-weight: 400;
+        color: white;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .aside hr{
+        width: 60%;
+        margin-bottom: 20px;
+    }
+    .treatBtnCont{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .treatBtnSelected{
+        font-family: var(--header-font);
+        font-size: var(--body-md-font);
+        font-weight: 400;
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        text-align: center;
+        padding: 10px 20px;
+        border: 2px solid var(--accent-font);
+        border-radius: 10px;
+        background: var(--dark-bg);
+        cursor: pointer;
+        transition-duration: 0.5s;
+    }
+    .treatBtn{
+        font-family: var(--header-font);
+        font-size: var(--body-md-font);
+        font-weight: 400;
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        text-align: center;
+        padding: 10px 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+        background: var(--dark-bg);
+        cursor: pointer;
+        transition-duration: 0.5s;
+    }
+    .treatBg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        min-height: 100vh;
+        background-color: var(--light-bg);
+    }
+    .treatContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100%;
+        background-color: var(--light-bg);
+        padding: 0 10px;
+    }
+    .treatTitle{
+        font-family: var(--header-font);
+        font-size: var(--header-sub-font);
+        font-weight: 400;
+        color: black;
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+    .treatItemCont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .treatUl{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+        margin-left: 80px;
+        margin-bottom: 30px;
+        list-style-type: disc;
+    }
+    .treatUl li{
+        font-family: var(--body-font);
+        font-size: var(--body-sm-font);
+        font-weight: 400;
+        color: black;
+        text-align: start;
+        width: 100%;
+    }
+    .treatOl{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: calc(100% - 60px);
+        margin-bottom: 30px;
+        list-style-type: decimal;
+    }
+    .treatOl li{
+        font-family: var(--body-font);
+        font-size: var(--body-sm-font);
+        font-weight: 400;
+        color: black;
+        text-align: start;
+        width: 100%;
+    }
+    .treatP{
+        font-family: var(--body-font);
+        font-size: var(--body-sm-font);
+        font-weight: 400;
+        color: black;
+        text-align: left;
+        width: 90%;
+        margin-bottom: 20px;
+
+    }
+    .treatH2{
+        font-family: var(--header-font);
+        font-size: var(--header-sub-font);
+        font-weight: 500;
+        color: black;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .treatH3{
+        font-family: var(--body-font);
+        font-size: var(--body-sm-font);
+        font-weight: 400;
+        color: black;
+        text-align: start;
+        width: 90%;
+        margin-bottom: 30px;
+
+    }
+    .treatImageCont{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    .treatImageVerticalCont{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 500px;
+        margin-bottom: 30px;
+    }
+    .treatIconLgCont{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+    .treatIconLgTextCont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 10px;
+        width: 90%;
+    }
+    .treatIconLgTextCont h4{
+        font-family: var(--body-font);
+        font-size: var(--body-md-font);
+        font-weight: 400;
+        color: black;
+        text-align: start;
+        width: 100%;
+    }
+    .treatIconLgTextCont p{
+        font-family: var(--body-font);
+        font-size: var(--body-sm-font);
+        font-weight: 400;
+        color: black;
+        text-align: start;
+        width: 100%;
+    }
+    .treatIconLgImageCont{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 15%;
+    }
+    .treatIconSmCont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    .bookNowBtn{
+        font-family: Rufina, serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        padding: 10px 20px;
+        border: 2px solid #684296;
+        border-radius: 10px;
+        background: #684296;
+        cursor: pointer;
+        align-self: center;
+        transition-duration: 0.5s;
+    }
+    .formCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ACE0F1;
+        padding: 60px;
+    }
+}
+@media(min-width: 650px) and (max-width: 850px){
+    .page{
+        overflow: hidden;
+    }
+    .navCont{
+        z-index: 1000;
+    }
+    .treatCont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        width: 100vw;
+        height: auto;
+    }
+    .aside{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 100vw;
+        background-color: var(--dark-bg);
+        color: white;
+    }
+    .aside h1{
+        font-family: var(--header-font);
+        font-size: var(--header-sm-font);
+        font-weight: 400;
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    .aside h2{
+        font-family: var(--header-font);
+        font-size: var(--header-sub-font);
+        font-weight: 400;
+        color: white;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .aside hr{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .treatBtnCont{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .treatBtnSelected{
+        font-family: var(--header-font);
+        font-size: var(--header-sub-font);
+        font-weight: 400;
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 10px 20px;
+        border: 2px solid var(--accent-font);
+        border-radius: 10px;
+        background: var(--dark-bg);
+        cursor: pointer;
+        transition-duration: 0.5s;
+    }
+    .treatBtn{
+        font-family: var(--header-font);
+        font-size: var(--header-sub-font);
+        font-weight: 400;
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 10px 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+        background: var(--dark-bg);
+        cursor: pointer;
+        transition-duration: 0.5s;
+    }
+    .treatBg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        min-height: 100vh;
+        background-color: var(--light-bg);
+    }
+    .treatContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100%;
+        background-color: var(--light-bg);
+        padding: 0 5vw;
+    }
+    .treatTitle{
+        font-family: var(--header-font);
+        font-size: var(--header-md-font);
+        font-weight: 400;
+        color: black;
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+    .treatItemCont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .treatUl{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+        margin-left: 80px;
+        margin-bottom: 30px;
+        list-style-type: disc;
+    }
+    .treatUl li{
+        font-family: var(--body-font);
+        font-size: var(--body-md-font);
+        font-weight: 400;
+        color: black;
+        text-align: start;
+        width: 100%;
+    }
+    .treatOl{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+        margin-left: 80px;
+        margin-bottom: 30px;
+        list-style-type: decimal;
+    }
+    .treatOl li{
+        font-family: var(--body-font);
+        font-size: var(--body-md-font);
+        font-weight: 400;
+        color: black;
+        text-align: start;
+        width: 100%;
+    }
+    .treatP{
+        font-family: var(--body-font);
+        font-size: var(--body-md-font);
+        font-weight: 400;
+        color: black;
+        text-align: left;
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+    .treatH2{
+        font-family: var(--header-font);
+        font-size: var(--header-md-font);
+        font-weight: 500;
+        color: black;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    .treatH3{
+        font-family: var(--body-font);
+        font-size: var(--header-sub-font);
+        font-weight: 400;
+        color: black;
+        text-align: start;
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+    .treatImageCont{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .treatImageVerticalCont{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 500px;
+        margin-bottom: 30px;
+    }
+    .treatIconLgCont{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 40px;
+        margin-bottom: 30px;
+    }
+    .treatIconLgTextCont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 15px;
+        width: 90%;
+    }
+    .treatIconLgTextCont h4{
+        font-family: var(--body-font);
+        font-size: var(--header-sub-font);
+        font-weight: 400;
+        color: black;
+        text-align: start;
+        width: 100%;
+    }
+    .treatIconLgTextCont p{
+        font-family: var(--body-font);
+        font-size: var(--body-md-font);
+        font-weight: 400;
+        color: black;
+        text-align: start;
+        width: 100%;
+
+    }
+    .treatIconLgImageCont{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 10%;
+    }
+    .treatIconSmCont{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .bookNowBtn{
+        font-family: Rufina, serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        padding: 10px 20px;
+        border: 2px solid #684296;
+        border-radius: 10px;
+        background: #684296;
+        cursor: pointer;
+        align-self: center;
+        transition-duration: 0.5s;
+    }
+    .formCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ACE0F1;
+        padding: 60px;
+    }
+}
+@media(min-width: 850px){
+    .page{
+        overflow: hidden;
+    }
+    .navCont{
+        z-index: 1000;
+    }
+    .treatCont{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        width: 100vw;
+        height: auto;
+    }
+    .aside{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 30vw;
+        background-color: var(--dark-bg);
+        color: white;
+    }
+    .aside h1{
+        font-family: var(--header-font);
+        font-size: var(--header-sm-font);
+        font-weight: 400;
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    .aside h2{
+        font-family: var(--header-font);
+        font-size: var(--header-sub-font);
+        font-weight: 400;
+        color: white;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .aside hr{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .treatBtnCont{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .treatBtnSelected{
+        font-family: var(--header-font);
+        font-size: var(--header-sub-font);
+        font-weight: 400;
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 10px 20px;
+        border: 2px solid var(--accent-font);
+        border-radius: 10px;
+        background: var(--dark-bg);
+        cursor: pointer;
+        transition-duration: 0.5s;
+    }
+    .treatBtn{
+        font-family: var(--header-font);
+        font-size: var(--header-sub-font);
+        font-weight: 400;
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 10px 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+        background: var(--dark-bg);
+        cursor: pointer;
+        transition-duration: 0.5s;
+    }
+    .treatBg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70vw;
+        height: auto;
+        min-height: 100vh;
+        background-color: var(--light-bg);
+    }
+    .treatContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70vw;
+        height: 100%;
+        background-color: var(--light-bg);
+        padding: 0 5vw;
+    }
+    .treatTitle{
+        font-family: var(--header-font);
+        font-size: var(--header-md-font);
+        font-weight: 400;
+        color: black;
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+    .treatItemCont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .treatUl{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+        margin-left: 80px;
+        margin-bottom: 30px;
+        list-style-type: disc;
+    }
+    .treatUl li{
+        font-family: var(--body-font);
+        font-size: var(--body-md-font);
+        font-weight: 400;
+        color: black;
+        text-align: start;
+        width: 100%;
+    }
+    .treatOl{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+        margin-left: 80px;
+        margin-bottom: 30px;
+        list-style-type: decimal;
+    }
+    .treatOl li{
+        font-family: var(--body-font);
+        font-size: var(--body-md-font);
+        font-weight: 400;
+        color: black;
+        text-align: start;
+        width: 100%;
+    }
+    .treatP{
+        font-family: var(--body-font);
+        font-size: var(--body-md-font);
+        font-weight: 400;
+        color: black;
+        text-align: left;
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+    .treatH2{
+        font-family: var(--header-font);
+        font-size: var(--header-md-font);
+        font-weight: 500;
+        color: black;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    .treatH3{
+        font-family: var(--body-font);
+        font-size: var(--header-sub-font);
+        font-weight: 400;
+        color: black;
+        text-align: start;
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+    .treatImageCont{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .treatImageVerticalCont{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 500px;
+        margin-bottom: 30px;
+    }
+    .treatIconLgCont{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 40px;
+        margin-bottom: 30px;
+    }
+    .treatIconLgTextCont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 15px;
+        width: 90%;
+    }
+    .treatIconLgTextCont h4{
+        font-family: var(--body-font);
+        font-size: var(--header-sub-font);
+        font-weight: 400;
+        color: black;
+        text-align: start;
+        width: 100%;
+    }
+    .treatIconLgTextCont p{
+        font-family: var(--body-font);
+        font-size: var(--body-md-font);
+        font-weight: 400;
+        color: black;
+        text-align: start;
+        width: 100%;
+
+    }
+    .treatIconLgImageCont{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 10%;
+    }
+    .treatIconSmCont{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .bookNowBtn{
+        font-family: Rufina, serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        padding: 10px 20px;
+        border: 2px solid #684296;
+        border-radius: 10px;
+        background: #684296;
+        cursor: pointer;
+        align-self: center;
+        transition-duration: 0.5s;
+    }
+    .formCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ACE0F1;
+        padding: 60px;
+    }
+}

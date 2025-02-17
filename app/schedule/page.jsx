@@ -26,14 +26,22 @@ export default function Schedule() {
                 <HeroSmall type="schedule"/>
                 <div className={styles.careCont}>
                     <div className={styles.careGrid}>
-                        <div className={styles.careImageCont}>
+                        <motion.div className={styles.careImageCont}
+                                    initial={{opacity: 0, x: 100}}
+                                    animate={{opacity: 1, x: 0}}
+                                    transition={{ duration: 1.5, delay: 0.5 }}
+                        >
                             <Image src="/scheduleCare.jpeg" alt="studio" fill objectFit="cover"/>
-                        </div>
-                        <div className={styles.careTextCont}>
+                        </motion.div>
+                        <motion.div className={styles.careTextCont}
+                                    initial={{opacity: 0, x: -100}}
+                                    animate={{opacity: 1, x: 0}}
+                                    transition={{ duration: 1.5, delay: 0.5 }}
+                        >
                             <h1>Patient Care</h1>
                             <h2>Want to learn more about our services before you book?</h2>
                             <button>Our Services</button>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
                 <div className={styles.scheduleCont}>

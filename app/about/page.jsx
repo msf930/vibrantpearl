@@ -33,15 +33,49 @@ export default function About() {
                 <div className={styles.aboutHeadSpacer}></div>
                 <div className={styles.aboutOneCont}>
                     <div className={styles.aboutOneLeft}>
-                        <h1>Our Practitioner</h1>
-                        <p>{aboutData.section1}<br/><br/>{aboutData.section2}</p>
+                        <motion.h1
+                            initial={{opacity: 0}}
+                            animate={{opacity: 1}}
+                            transition={{ease: "easeIn", duration: 1.0}}
+                        >
+                            Our Practitioner
+                        </motion.h1>
+                        <motion.p
+                            initial={{opacity: 0}}
+                            animate={{opacity: 1}}
+                            transition={{ease: "easeIn", duration: 1.0}}
+                        >
+                            {aboutData.section1}
+                        </motion.p>
+                        <motion.p
+                            initial={{opacity: 0}}
+                            animate={{opacity: 1}}
+                            transition={{ease: "easeIn", duration: 1.0, delay: 0.5}}
+                        >
+                            {aboutData.section2}
+                        </motion.p>
                     </div>
                     <div className={styles.aboutOneRight}>
-                        <div className={styles.headshotCont}>
+                        <motion.div
+                            className={styles.headshotCont}
+                            initial={{opacity: 0, x: 100}}
+                            animate={{opacity: 1, x: 0}}
+                            transition={{ease: "easeIn", duration: 1.0}}
+                        >
                             <Image src={billy} alt="billy headshot" fill objectFit="contain"/>
-                        </div>
-                        <h2 className={styles.infoTitle}>Billy Che Quintana L.Ac., Dipl. O.M.</h2>
-                        <p className={styles.infoBody}>Acupuncturist, Cosmetic Acupuncturist, Chinese Herbalist, and Practitioner of Traditional Chinese Wellness</p>
+                        </motion.div>
+                        <motion.h2
+                            className={styles.infoTitle}
+                            initial={{opacity: 0}}
+                            animate={{opacity: 1}}
+                            transition={{ease: "easeIn", duration: 1.0}}
+                        >Billy Che Quintana L.Ac., Dipl. O.M.</motion.h2>
+                        <motion.p
+                            className={styles.infoBody}
+                            initial={{opacity: 0}}
+                            animate={{opacity: 1}}
+                            transition={{ease: "easeIn", duration: 1.0}}
+                        >Acupuncturist, Cosmetic Acupuncturist, Chinese Herbalist, and Practitioner of Traditional Chinese Wellness</motion.p>
                     </div>
                 </div>
                 <div className={styles.aboutTwoCont}>

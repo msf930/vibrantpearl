@@ -63,7 +63,7 @@ export default function Nav() {
         >
             <nav className={styles.navCont}>
                 <div className={styles.navImgCont}>
-                    <Link href="/public">
+                    <Link href="/">
 
                         <Image src={Logo} alt="logo" height={79} width={250}/>
 
@@ -98,13 +98,7 @@ export default function Nav() {
                                 Treatments
                         </Link>
                     </div>
-                    <div>
-                        <Link
-                            className={pathname === "/patientcenter" ? styles.navBarLinkActive : styles.navBarLink}
-                            href="/patientcenter">
-                                Patient Center
-                        </Link>
-                    </div>
+
 
 
                 </div>
@@ -152,20 +146,20 @@ export default function Nav() {
                             </li>
                             <li>
                                 <Link
-                                    href="/services"
-                                    className={pathname === "/services" ? styles.navMenuLinkActive : styles.navMenuLink}
+                                    href="/schedule"
+                                    className={pathname === "/schedule" ? styles.navMenuLinkActive : styles.navMenuLink}
                                     onClick={handleShowNavbar}
                                 >
-                                    Services
+                                    Scheduling
                                 </Link>
                             </li>
                             <li>
                                 <Link
-                                    href="/contact"
-                                    className={pathname === "/contact" ? styles.navMenuLinkActive : styles.navMenuLink}
+                                    href="/treatments"
+                                    className={pathname === "/treatments" ? styles.navMenuLinkActive : styles.navMenuLink}
                                     onClick={handleShowNavbar}
                                 >
-                                    Contact
+                                    Treatments
                                 </Link>
                             </li>
                         </ul>
