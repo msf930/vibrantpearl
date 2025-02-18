@@ -47,13 +47,13 @@ export default function About() {
                         >
                             {aboutData.section1}
                         </motion.p>
-                        <motion.p
+                        <motion.div
                             initial={{opacity: 0}}
                             animate={{opacity: 1}}
                             transition={{ease: "easeIn", duration: 1.0, delay: 0.5}}
                         >
-                            {aboutData.section2}
-                        </motion.p>
+                           <div dangerouslySetInnerHTML={{__html: aboutData.section2}}></div>
+                        </motion.div>
                     </div>
                     <div className={styles.aboutOneRight}>
                         <motion.div
@@ -69,14 +69,8 @@ export default function About() {
                             initial={{opacity: 0}}
                             animate={{opacity: 1}}
                             transition={{ease: "easeIn", duration: 1.0}}
-                        >Billy Che Quintana L.Ac., Dipl. O.M.</motion.h2>
-                        <motion.p
-                            className={styles.infoBody}
-                            initial={{opacity: 0}}
-                            animate={{opacity: 1}}
-                            transition={{ease: "easeIn", duration: 1.0}}
-                        >Acupuncturist, Cosmetic Acupuncturist, Chinese Herbalist, and Practitioner of Traditional Chinese Wellness</motion.p>
-                    </div>
+                        >Acupuncturist and Practitioner of Traditional Chinese Medicine</motion.h2>
+                         </div>
                 </div>
                 <div className={styles.aboutTwoCont}>
                     <div className={styles.aboutTwoLeft}>
@@ -85,7 +79,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className={styles.aboutTwoRight}>
-                        <p>{aboutData.section3}<br/><br/>{aboutData.section4}</p>
+                        <div dangerouslySetInnerHTML={{__html: aboutData.section3}}></div><br/><br/><p>{aboutData.section4}</p>
                     </div>
                 </div>
                 <div className={styles.formCont}>

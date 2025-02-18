@@ -111,8 +111,8 @@
   ],
   "about": {
     "section1": "Billy Che Quintana is a warm gentle soul who loves helping people. He believes each patient is a unique individual tailoring each treatment to their needs at that time. In doing so, he loves to blend acupuncture styles, treatment methods, acupuncture point combinations, and Traditional Chinese Medicine diagnostic paradigms. With a strong background in western sciences he often incorporates modern knowledge of muscles, muscle groups, trigger points, and body kinesthetics.",
-    "section2": "He has over 10 years of clinical experience and maintains his license of Acupuncture with the Colorado Department of Regulatory Agencies (DORA). He earned his Master’s of Traditional Chinese Medicine from the Colorado School of Traditional Chinese Medicine (CSTCM), now called Colorado Chinese Medicine University (CCMU) in Denver, Colorado and is certified as a Diplomat of Oriental Medicine by the National Certification Commission for Acupuncture and Oriental Medicine (NCCAOM). Continuing to be active in the academic community he teaches basic biochemistry and supervises in the student clinic at CCMU.",
-    "section3": "Billy loves to learn and enrolls frequently in continuing education programs. He obtained a certificate from the Center for Rejuvenation Acupuncture LLC where he obtained knowledge in skin health and a unique style of acupuncture to reduce fine lines, lift the face, and encourage radiant skin. He also holds a Level 1 Certification from the Neuro Acupuncture Institute in Santa Fe, NM, with extensive knowledge in treating neurological ailments using scalp\nacupuncture. Currently, he is enrolled in a program studying the 5 elements style of acupuncture to better address mental emotion related ailments.",
+    "section2": "<p>He has over 10 years of clinical experience and maintains his license of Acupuncture with the Colorado Department of Regulatory Agencies (DORA). He earned his Master’s of Traditional Chinese Medicine from the Colorado School of Traditional Chinese Medicine (CSTCM), now called <a href=\"https://ccmu.edu/\"><span style='color: #684296; font-weight:bold'>Colorado Chinese Medicine University (CCMU)</span></a> in Denver, Colorado and is certified as a Diplomat of Oriental Medicine by the National Certification Commission for Acupuncture and Oriental Medicine (NCCAOM). Continuing to be active in the academic community he teaches basic biochemistry and supervises in the student clinic at CCMU.</p>",
+    "section3": "<p>Billy loves to learn and enrolls frequently in continuing education programs. He obtained a certificate from the Center for Rejuvenation Acupuncture LLC where he obtained knowledge in skin health and a unique style of acupuncture to reduce fine lines, lift the face, and encourage radiant skin. He also holds a Level 1 Certification from the <a href=\"https://www.neuroacupunctureinstitute.org/\"><span style='color: #684296; font-weight:bold'>Neuro Acupuncture Institute in Santa Fe, NM</span></a>, with extensive knowledge in treating neurological ailments using scalp acupuncture. Currently, he is enrolled in a program studying the 5 elements style of acupuncture to better address mental emotion related ailments.</p>",
     "section4": "With a strong interest in LGBTQ (lesbian, gay, bisexual, transgender, and queer) health issues Billy strives to ensure that the LGBTQ community has access to safe and friendly healthcare services. He currently maintains his membership with the GLMA (Gay and Lesbian Medical Association) and is always looking for ways to be involved in the LGBTQ community."
   },
   "treatments": [
@@ -306,7 +306,7 @@
         },
         {
           "type": "p",
-          "body": "Techniques used by practitioners of TCM to correct an imbalance include acupuncture, cupping, gua sha (scraping), heat therapy, bleeding, herbal therapies, moxibustion, and tui na (traditional Chinese therapeutic massage).\nTo keep someone from falling back out of balance and address the cause of the imbalance a practitioner may recommend dietary and lifestyle changes. "
+          "body": "Techniques used by practitioners of TCM to correct an imbalance include acupuncture, cupping, gua sha (scraping), heat therapy, bleeding, herbal therapies, moxibustion, and tui na (traditional Chinese therapeutic massage). To keep someone from falling back out of balance and address the cause of the imbalance a practitioner may recommend dietary and lifestyle changes. "
         },
         {
           "type": "ImageVertical",
@@ -359,6 +359,28 @@
             "Tui Na",
             "a therapeutic traditional Chinese message."
           ]
+        }
+      ]
+    },
+    {
+      "name": "Scalp Acupuncture",
+      "title": "What is Scalp Acupuncture?",
+      "content": [
+        {
+          "type": "p",
+          "body": "Chinese scalp acupuncture is a modern method that combines the traditional Chinese needling style with current western medical knowledge of the brain. In needling the scalp specific areas of the brain’s cerebral cortex are affected to improve the function of certain areas of the body. In a sense the needling is asking the body to bring its attention to a certain part of the brain to improve use of a body part."
+        },
+        {
+          "type": "p",
+          "body": "Though needling the head is documented in ancient Chinese medicine texts that are thousands of years old, this modern system of Chinese scalp acupuncture got its start with the mapping of the brain in the 1970s. With research improving our knowledge of the brain some researchers focused their attention on influencing the brain by needling the scalp. After decades of research it has been refined to a beautiful system. Today Chinese scalp acupuncture is used all over the world to reduce the symptoms and improve the quality of life in those with neurological diseases or with a history of neurological trauma like a stroke or concussion."
+        },
+        {
+          "type": "p",
+          "body": "Billy Quintana of Vibrant Pearl Acupuncture & Herbs received basic foundational knowledge of Chinese Scalp Acupuncture during his Master’s of Traditional Chinese Medicine program. He then furthered his knowledge and practice of this system by studying with an expert in Chinese Scalp Acupuncture, Jason JinShun Hao, DOM, of the Neuro-Acupuncture Institute in Santa Fe, NM."
+        },
+        {
+          "type": "Image",
+          "body": "/brain.jpg"
         }
       ]
     }
