@@ -58,9 +58,9 @@ export default function About() {
                     <div className={styles.aboutOneRight}>
                         <motion.div
                             className={styles.headshotCont}
-                            initial={{opacity: 0, x: 100}}
-                            animate={{opacity: 1, x: 0}}
-                            transition={{ease: "easeIn", duration: 1.0}}
+                            initial={{opacity: 0}}
+                            animate={{opacity: 1}}
+                            transition={{ease: "easeIn", duration: 1.0, delay: 0.5}}
                         >
                             <Image src={billy} alt="billy headshot" fill objectFit="contain"/>
                         </motion.div>

@@ -316,7 +316,7 @@
 
     .aboutOneLeft p {
         font-family: var(--body-font);
-        font-size: clamp(var(--body-xsm-font),1.5vw, var(--header-sub-font));
+        font-size: clamp(var(--body-xsm-font),1.2vw, var(--body-md-font));
         width: 100%;
     }
 
@@ -394,7 +394,7 @@
 
     .aboutTwoRight p {
         font-family: var(--body-font);
-        font-size: clamp(var(--body-xsm-font),1.5vw, var(--header-sub-font));
+        font-size: clamp(var(--body-xsm-font),1.2vw, var(--body-md-font));
         width: 100%;
     }
 
