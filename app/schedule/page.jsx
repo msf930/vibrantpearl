@@ -39,8 +39,8 @@ export default function Schedule() {
                                     transition={{ duration: 1.5, delay: 0.5 }}
                         >
                             <h1>Patient Care</h1>
-                            <h2>Want to learn more about our services before you book?</h2>
-                            <button>Our Services</button>
+                            <h2>Want to learn more about our treatments before you book?</h2>
+                            <a href="/treatments">Our Treatments</a>
                         </motion.div>
                     </div>
                 </div>

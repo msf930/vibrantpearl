@@ -54,20 +54,21 @@ export default function Home() {
                           </motion.p>
                           <div className={styles.contactCont}>
 
-                          <motion.div className={styles.heroContactCont}
+                              <motion.a href='tel:+17195887280' className={styles.heroContactCont}
                               initial={{opacity: 0, x: -100}}
                               whileInView={{ opacity: 1, x: 0 }}
                               transition={{ duration: 1.5, delay: 0.5 }}
                               viewport={{ once: true }}
                           >
                               Call: 719-588-7280
-                          </motion.div>
-                          <motion.button className={styles.heroButton}
+                          </motion.a>
+                          <motion.a className={styles.heroButton}
                                          initial={{opacity: 0, x: -100}}
                                          whileInView={{ opacity: 1, x: 0 }}
                                          transition={{ duration: 1.5, delay: 0.5 }}
                                          viewport={{ once: true }}
-                          >Book Now</motion.button>
+                                        href="/schedule"
+                          >Book Now</motion.a>
                           </div>
                       </div>
                   </div>
@@ -106,7 +107,7 @@ export default function Home() {
                               Degree of Traditional Chinese Medicine, and has acquired continuing
                               education in Facial Rejuvenation Acupuncture and Scalp Acupuncture.
                           </p>
-                          <button className={styles.meetButton}>Learn More</button>
+                          <a href="/about" className={styles.meetButton}>Learn More</a>
                       </motion.div>
                   </div>
               </div>
@@ -125,7 +126,7 @@ export default function Home() {
                           custom tailored to better help each patient. We also gladly welcome individuals of all sexes,
                           gender identities, orientations, races, and walks of life.
                       </p>
-                      <button className={styles.whyButton}>Book Now</button>
+                      <a href="/schedule" className={styles.whyButton}>Book Now</a>
                   </motion.div>
                   <motion.div
                       initial={{opacity: 0, x: 100}}

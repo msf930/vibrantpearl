@@ -127,7 +127,7 @@ export default function Treatments() {
                 <HeroSmall type="treatments"/>
                 <div className={styles.treatCont}>
                     <div className={styles.aside}>
-                        <h1>Our Services</h1>
+                        <h1>Our Treatments</h1>
                         <h2>Click below to learn more</h2>
                         <hr />
                         <div className={styles.treatBtnCont}>
