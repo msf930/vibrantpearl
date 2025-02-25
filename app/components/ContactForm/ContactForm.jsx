@@ -24,8 +24,8 @@ const ContactForm = () => {
 
     useEffect(() => {
 
-        if (token)
-            console.log(`hCaptcha Token: ${token}`);
+        //if (token)
+            // console.log(`hCaptcha Token: ${token}`);
 
     }, [token]);
 
