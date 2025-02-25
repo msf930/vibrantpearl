@@ -74,13 +74,13 @@ const ContactForm = () => {
                     <p className={styles.contactHeroTextMobile}>
                         Let us know how we can serve you!
                     </p>
-                    <IconContext.Provider value={{ color: "black", size: "30px" }}>
-                        <div className={styles.iconGroupContact}>
-                            <Link className={styles.icon} href={"https://twitter.com"}><AiOutlineX /></Link>
-                            <Link className={styles.icon} href={"https://www.facebook.com"}><AiFillFacebook /></Link>
-                            <Link className={styles.icon} href={"https://www.instagram.com"}><AiFillInstagram /></Link>
-                        </div>
-                    </IconContext.Provider>
+                    {/*<IconContext.Provider value={{ color: "black", size: "30px" }}>*/}
+                    {/*    <div className={styles.iconGroupContact}>*/}
+                    {/*        <Link className={styles.icon} href={"https://twitter.com"}><AiOutlineX /></Link>*/}
+                    {/*        <Link className={styles.icon} href={"https://www.facebook.com"}><AiFillFacebook /></Link>*/}
+                    {/*        <Link className={styles.icon} href={"https://www.instagram.com"}><AiFillInstagram /></Link>*/}
+                    {/*    </div>*/}
+                    {/*</IconContext.Provider>*/}
                 </div>
 
             </div>

@@ -15,7 +15,7 @@ export default function HeroSmall({type}){
                     <h2>{pageData.subtitle}</h2>
                     {type === "schedule"
                         ? <h2>719-588-7280</h2>
-                        : <button className={styles.heroSmButton}>Book Now</button>
+                        : <a href="/schedule" className={styles.heroSmButton}>Book Now</a>
                     }
                 </div>
             </div>

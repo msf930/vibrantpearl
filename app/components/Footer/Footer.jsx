@@ -12,13 +12,13 @@ export default function Footer() {
             <div>
                 <h1>© {currentYear} Vibrant pearl</h1>
             </div>
-            <IconContext.Provider value={{ color: "white", size: "30px" }}>
-                <div className={styles.iconGroupContact}>
-                    <Link className={styles.icon} href={"https://twitter.com"}><AiOutlineX /></Link>
-                    <Link className={styles.icon} href={"https://www.facebook.com"}><AiFillFacebook /></Link>
-                    <Link className={styles.icon} href={"https://www.instagram.com"}><AiFillInstagram /></Link>
-                </div>
-            </IconContext.Provider>
+            {/*<IconContext.Provider value={{ color: "white", size: "30px" }}>*/}
+            {/*    <div className={styles.iconGroupContact}>*/}
+            {/*        <Link className={styles.icon} href={"https://twitter.com"}><AiOutlineX /></Link>*/}
+            {/*        <Link className={styles.icon} href={"https://www.facebook.com"}><AiFillFacebook /></Link>*/}
+            {/*        <Link className={styles.icon} href={"https://www.instagram.com"}><AiFillInstagram /></Link>*/}
+            {/*    </div>*/}
+            {/*</IconContext.Provider>*/}
         </div>
     );
 }

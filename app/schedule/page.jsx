@@ -25,24 +25,13 @@ export default function Schedule() {
                 </div>
                 <HeroSmall type="schedule"/>
                 <div className={styles.careCont}>
-                    <div className={styles.careGrid}>
-                        <motion.div className={styles.careImageCont}
-                                    initial={{opacity: 0, x: 100}}
-                                    animate={{opacity: 1, x: 0}}
-                                    transition={{ duration: 1.5, delay: 0.5 }}
-                        >
-                            <Image src="/scheduleCare.jpeg" alt="studio" fill objectFit="cover"/>
-                        </motion.div>
-                        <motion.div className={styles.careTextCont}
-                                    initial={{opacity: 0, x: -100}}
-                                    animate={{opacity: 1, x: 0}}
-                                    transition={{ duration: 1.5, delay: 0.5 }}
-                        >
-                            <h1>Patient Care</h1>
-                            <h2>Want to learn more about our treatments before you book?</h2>
-                            <a href="/treatments">Our Treatments</a>
-                        </motion.div>
-                    </div>
+                    <motion.div className={styles.careImageCont}
+                                initial={{opacity: 0, x: 100}}
+                                animate={{opacity: 1, x: 0}}
+                                transition={{ duration: 1.5, delay: 0.5 }}
+                    >
+                        <Image src="/Logo.png" alt="studio" fill objectFit="contain"/>
+                    </motion.div>
                 </div>
                 <div className={styles.scheduleCont}>
                     <iframe src="https://app.squarespacescheduling.com/schedule/43adfe32"
