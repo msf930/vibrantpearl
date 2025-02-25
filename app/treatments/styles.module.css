@@ -372,7 +372,7 @@
         align-items: center;
         width: 100vw;
         height: auto;
-        min-height: 130vh;
+        min-height: 150vh;
         background-color: var(--light-bg);
     }
     .treatContent{
@@ -661,7 +661,7 @@
         align-items: center;
         width: 70vw;
         height: auto;
-        min-height: 100vh;
+        min-height: 150vh;
         background-color: var(--light-bg);
     }
     .treatContent{
