@@ -279,7 +279,7 @@
 
 }
 
-@media (orientation: portrait) and (max-width: 650px){
+@media (max-width: 650px){
     .nav {
         position: fixed;
         width: 100vw;
@@ -560,7 +560,7 @@
 
 }
 
-@media (orientation: portrait) and (min-width: 650px) and (max-width: 850px){
+@media (min-width: 650px) and (max-width: 850px) and (min-height: 500px){
     .nav {
         position: fixed;
         width: 100vw;
@@ -625,7 +625,7 @@
 
 }
 
-@media (orientation: portrait) and (min-width: 850px){
+@media (orientation: landscape) and (min-width: 850px) and (min-height: 500px){
     .nav {
         position: fixed;
         width: 100vw;
