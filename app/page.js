@@ -203,7 +203,7 @@ export default function Home() {
                       >
                           <Image
                               src={homeImage1}
-                              alt="cupping"
+                              alt="Studio seating"
                               className={styles.imagesImg}
                               fill
                               objectFit="contain"
@@ -225,7 +225,7 @@ export default function Home() {
                       >
                           <Image
                               src={homeImage2}
-                              alt="accupuncture needles"
+                              alt="Studio check in desk"
                               className={styles.imagesImg}
                               fill
                               objectFit="contain"
@@ -249,7 +249,7 @@ export default function Home() {
                       >
                           <Image
                               src={homeImage3}
-                              alt="chinese herbs"
+                              alt="Cupping cups"
                               className={styles.imagesImg}
                               fill
                               objectFit="contain"

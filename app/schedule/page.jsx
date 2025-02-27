@@ -30,7 +30,7 @@ export default function Schedule() {
                                 animate={{opacity: 1, x: 0}}
                                 transition={{ duration: 1.5, delay: 0.5 }}
                     >
-                        <Image src="/Logo.png" alt="studio" fill objectFit="contain"/>
+                        <Image src="/Logo.png" alt="logo" fill objectFit="contain"/>
                     </motion.div>
                 </div>
                 <div className={styles.scheduleCont}>
