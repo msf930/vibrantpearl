@@ -20,11 +20,11 @@
 
     .iconGroupContact {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        margin-top: 30px;
+        margin-top: 10px;
+        gap: 10px;
     }
 
     .icon {
@@ -299,11 +299,11 @@
 
     .iconGroupContact {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        margin-top: 30px;
+        margin-top: 10px;
+        gap: 10px;
     }
 
     .icon {
@@ -576,11 +576,11 @@
 
     .iconGroupContact {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        margin-top: 30px;
+        margin-top: 10px;
+        gap: 10px;
     }
 
     .icon {

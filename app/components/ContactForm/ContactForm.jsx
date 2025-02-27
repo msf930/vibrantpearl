@@ -77,6 +77,7 @@ const ContactForm = () => {
                     <IconContext.Provider value={{ color: "black", size: "30px" }}>
                         <div className={styles.iconGroupContact}>
                             {/*<Link className={styles.icon} href={"https://twitter.com"}><AiOutlineX /></Link>*/}
+                            <h3>Follow us on Facebook</h3>
                             <Link className={styles.icon} href={"https://www.facebook.com/share/155xh8D4tU/?mibextid=wwXIfr"} target="_blank"><AiFillFacebook /></Link>
                             {/*<Link className={styles.icon} href={"https://www.instagram.com"}><AiFillInstagram /></Link>*/}
                         </div>
