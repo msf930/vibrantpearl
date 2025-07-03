@@ -93,6 +93,13 @@ export default function Nav() {
                     </div>
                     <div>
                         <Link
+                            className={pathname === "/blog" ? styles.navBarLinkActive : styles.navBarLink}
+                            href="/blog">
+                            Blog
+                        </Link>
+                    </div>
+                    <div>
+                        <Link
                             className={pathname === "/treatments" ? styles.navBarLinkActive : styles.navBarLink}
                             href="/treatments">
                                 Treatments
@@ -151,6 +158,15 @@ export default function Nav() {
                                     onClick={handleShowNavbar}
                                 >
                                     Scheduling
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="/blog"
+                                    className={pathname === "/blog" ? styles.navMenuLinkActive : styles.navMenuLink}
+                                    onClick={handleShowNavbar}
+                                >
+                                    Blog
                                 </Link>
                             </li>
                             <li>

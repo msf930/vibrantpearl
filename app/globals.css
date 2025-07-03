@@ -17,6 +17,7 @@
     --light-font: #DAD7CD;
     --dark-font: #684296;
     --accent-font: #BC79B3;
+    --accent-color: #3398C1;
 
     --hero-font: 64px;
     --header-lg-font: 48px;
@@ -28,6 +29,17 @@
     --body-sm-font: 16px;
     --body-xsm-font: 14px;
 
+    --font-size-h1: 56px;
+    --font-size-h2: 44px;
+    --font-size-h3: 32px;
+    --font-size-h4: 28px;
+    --font-size-blogTitle: 26px;
+    --font-size-med: 24px;
+    --font-size-mobileNav: 20px;
+    --font-size-p: 18px;
+    --font-size-small: 14px;
+    --font-size-xSmall: 12px;
+    
     --header-font: 'Rufina', serif;
     --body-font: 'Oxygen', sans-serif;
 }

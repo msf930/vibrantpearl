@@ -10,7 +10,7 @@ export default function Footer() {
     return(
         <div className={styles.footerCont}>
             <div>
-                <h1>© {currentYear} Vibrant pearl</h1>
+                <a href="/studio">© {currentYear} Vibrant pearl</a>
             </div>
             <IconContext.Provider value={{ color: "white", size: "30px" }}>
                 <div className={styles.iconGroupContact}>

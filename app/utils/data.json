@@ -93,6 +93,12 @@
       "image": "/treatmentsHero.png",
       "title": "Our Treatments",
       "subtitle": "Learn more about our treatments below"
+    },
+    {
+      "type": "blog",
+      "image": "/blogHero.jpg",
+      "title": "The Blog",
+      "subtitle": "Read our latest articles and news!"
     }
   ],
   "testimonials": [
